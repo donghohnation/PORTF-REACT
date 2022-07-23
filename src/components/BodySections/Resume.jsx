@@ -9,8 +9,13 @@ function Resume() {
 
 		<div className="row rowow">
 			<div className="col-10 d4resume">
-				<h3 className="sectionheader" id="Resume">RESUME</h3>
 
+				<h3 className="sectionheader" id="Resume">RESUME</h3>
+				
+				<div className="dlbutton">
+				<a id="dlresume" href="assets/Donghoh_Han–CV.pdf" target="_blank">download pdf</a>
+				</div>
+				
 				<div className="resumeContent">
 
 					<h1>OBJECTIVE</h1>

@@ -21,17 +21,23 @@ function Work() {
 				<div className="row projectRow1">
 
 					<WorkCard 
-						img= "assets/images/placeholder.jpg"
-						title = "Project 1"
-						description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna"
-					
+						img= "assets/images/proj1_supersearch.png"
+						title= "Superhero Gif Search"
+						description= "Do you like superheroes and need a gif to show it? Use this app!"
+						sourcelink= "https://github.com/lamnong/project1.team2"
+						deploylink= "https://lamnong.github.io/project1.team2/"
+						projecttech= "HTML CSS JAVASCRIPT"
+						
+
 					/>
 					
 					<WorkCard 
-						img= "assets/images/placeholder.jpg"
-						title = "Project 2"
-						description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna"
-					
+						img= "assets/images/proj2_drinkreviews.png"
+						title= "Drink Reviews"
+						description= "Do you like trying out new drinks? Keep track of the drinks you've tried and liked!"
+						sourcelink="https://github.com/donghohnation/drink-reviews"
+						deploylink="https://drinkrevi.herokuapp.com/"
+						projecttech="HTML CSS JAVASCRIPT NODE MYSQL EXPRESS"
 					/>
 
 				</div>
@@ -41,17 +47,22 @@ function Work() {
 				<div className="row projectRow2">
 
 					<WorkCard
-						img="assets/images/placeholder.jpg"
-						title="Project 3"
+						img="https://images.squarespace-cdn.com/content/v1/5463c949e4b05c41e0cd708f/1642533428145-5P86DP6EB5BTCP17NJCH/st3.jpg?format=2500wg"
+						title="Starlite + Flip Chip Opto"
 						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna"
+						sourcelink="https://donghohdesigns.squarespace.com/starlite-flip-chip-opto/"
+						deploylink="https://donghohdesigns.squarespace.com/starlite-flip-chip-opto/"
+						projecttech="PHOTOSHOP LIGHTROOM ILLUSTRATOR"
 
 					/>
 
 					<WorkCard
-						img="assets/images/placeholder.jpg"
-						title="Project 4"
+						img="https://images.squarespace-cdn.com/content/v1/5463c949e4b05c41e0cd708f/1557431867842-H4R97KPXDVQH76ECFV8Z/Skyboxx_Logo_v13_1_chosen-4-cropped.jpg?format=1000w"
+						title="The Skyboxx"
 						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna"
-
+						sourcelink="https://donghohdesigns.squarespace.com/the-skyboxx-recording-studio/"
+						deploylink="https://donghohdesigns.squarespace.com/the-skyboxx-recording-studio/"
+						projecttech="ILLUSTRATOR"
 					/>
 
 				</div>

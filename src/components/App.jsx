@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import Nav from "./Nav";
 import Body from "./Body";
-import Head from "./Head";
+// import Head from "./Head";
 
 
 
@@ -18,10 +18,10 @@ function App() {
     return (
 		<div className="bodybackground" style={{ backgroundColor: isActive ? 'orange' : '', color: isActive ? 'white' : '', }}>
 
-			<div>
+			{/* <div>
 				<button onClick={handleClick}>Click</button>
-			</div>
-			<Head />
+			</div> */}
+			{/* <Head /> */}
 			<Nav />
             <Body />
         </div>
