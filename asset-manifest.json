@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/PORTF-REACT/static/css/main.fb92b59f.css",
-    "main.js": "/PORTF-REACT/static/js/main.19c7883e.js",
+    "main.js": "/PORTF-REACT/static/js/main.214ea5ec.js",
     "static/media/proj1_supersearch.png": "/PORTF-REACT/static/media/proj1_supersearch.04a942b0a690213568d9.png",
     "static/media/proj2_drinkreviews.png": "/PORTF-REACT/static/media/proj2_drinkreviews.819dacf97af09b2f6c28.png",
     "static/media/Donghoh_Han–CV.pdf": "/PORTF-REACT/static/media/Donghoh_Han–CV.145a41f965ce09fb6cb7.pdf",
     "index.html": "/PORTF-REACT/index.html",
     "main.fb92b59f.css.map": "/PORTF-REACT/static/css/main.fb92b59f.css.map",
-    "main.19c7883e.js.map": "/PORTF-REACT/static/js/main.19c7883e.js.map"
+    "main.214ea5ec.js.map": "/PORTF-REACT/static/js/main.214ea5ec.js.map"
   },
   "entrypoints": [
     "static/css/main.fb92b59f.css",
-    "static/js/main.19c7883e.js"
+    "static/js/main.214ea5ec.js"
   ]
 }
