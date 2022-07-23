@@ -21,18 +21,16 @@ function Work() {
 				<div className="row projectRow1">
 
 					<WorkCard 
-						img= "assets/images/proj1_supersearch.png"
+						img= {require("../../assets/images/proj1_supersearch.png")}
 						title= "Superhero Gif Search"
 						description= "Do you like superheroes and need a gif to show it? Use this app!"
 						sourcelink= "https://github.com/lamnong/project1.team2"
 						deploylink= "https://lamnong.github.io/project1.team2/"
 						projecttech= "HTML CSS JAVASCRIPT"
-						
-
 					/>
 					
 					<WorkCard 
-						img= "assets/images/proj2_drinkreviews.png"
+						img={require("../../assets/images/proj2_drinkreviews.png")}
 						title= "Drink Reviews"
 						description= "Do you like trying out new drinks? Keep track of the drinks you've tried and liked!"
 						sourcelink="https://github.com/donghohnation/drink-reviews"

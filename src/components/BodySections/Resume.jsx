@@ -13,7 +13,7 @@ function Resume() {
 				<h3 className="sectionheader" id="Resume">RESUME</h3>
 				
 				<div className="dlbutton">
-				<a id="dlresume" href="assets/Donghoh_Han–CV.pdf" target="_blank">download pdf</a>
+					<a id="dlresume" href={require("../../assets/Donghoh_Han–CV.pdf")} target="_blank">download pdf</a>
 				</div>
 				
 				<div className="resumeContent">
