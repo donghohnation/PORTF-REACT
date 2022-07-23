@@ -1,10 +1,13 @@
 {
   "files": {
+    "main.css": "/portf-react/static/css/main.fb92b59f.css",
     "main.js": "/portf-react/static/js/main.1b0ee88f.js",
     "index.html": "/portf-react/index.html",
+    "main.fb92b59f.css.map": "/portf-react/static/css/main.fb92b59f.css.map",
     "main.1b0ee88f.js.map": "/portf-react/static/js/main.1b0ee88f.js.map"
   },
   "entrypoints": [
+    "static/css/main.fb92b59f.css",
     "static/js/main.1b0ee88f.js"
   ]
 }
