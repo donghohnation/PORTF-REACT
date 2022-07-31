@@ -48,7 +48,7 @@ body::-webkit-scrollbar-thumb:hover {
 #greettime {
 	margin-left: 180px;
 	margin-top: -23px;
-	font-size: 75px;
+	font-size: 55px;
 	font-weight: 400;
 	letter-spacing: 4px;
 	color: rgba(220, 225, 241, 0.349);
@@ -92,16 +92,14 @@ body::-webkit-scrollbar-thumb:hover {
 
 .nav a:hover {
 	text-decoration: none;
-	/*font-size: 23px;
-	line-height: 32px;
-	*/
-	color: rgb(239, 175, 106);
-	background-color: rgba(255, 255, 255, 0.584);
+	color: rgb(190, 232, 148);
+	background-color: rgb(53, 53, 53);
 	transition: all ease 0.2s;
 	-webkit-transition: all ease 0.2s;
 	-moz-transition: all ease 0.2s;
 	-ms-transition: all ease 0.2s;
 	-o-transition: all ease 0.2s;
+	font-weight: 500;
 }
 
 .nav .socials {
@@ -117,7 +115,6 @@ body::-webkit-scrollbar-thumb:hover {
 	font-weight: 600;
 	font-size: 17px;
 	color: rgb(239, 175, 106);
-	/* background-color: rgba(255, 255, 255, 0.584); */
 	transition: all ease 0.2s;
 
 }
@@ -125,6 +122,8 @@ body::-webkit-scrollbar-thumb:hover {
 .nav ul {
 	position: fixed;
 	margin-left: 90px;
+	background-color: rgba(244, 246, 249, 0.828);
+	padding-bottom: 28px;
 }
 
 @media (max-width: 1400px) {
@@ -144,7 +143,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 
 #avatar {
-	width: 133px;
+	width: 155px;
 	padding-bottom: 50px;
 	margin-left: 120px;
 	margin-top: -38px;
@@ -390,8 +389,141 @@ body::-webkit-scrollbar-thumb:hover {
 	-webkit-filter: none;
 }
 
+
+
+
+
+.myemail {
+	font-size: 18px;
+	margin-top: 99px;
+	margin-left: 2px;
+	color: rgb(64, 64, 233);
+}
+
+
+.contactform {
+	margin-top: 33px;
+}
+
+.contactinputs {
+	height: 36px;
+	padding: 12px;
+	margin: 12px 0px;
+	color: blue;
+	background-color: rgb(242, 247, 254);
+	border: .8px solid #aabeeb;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+}
+
+.contactinputs:hover {
+	background-color: rgb(246, 249, 253);
+	border: .8px solid #a2b4de;
+}
+
+.contactinputs:focus {
+	background-color: rgb(50, 50, 50);
+	border: none;
+	color: antiquewhite;
+}
+
+.contactmsg {
+	width: 100%;
+	padding: 12px;
+	/* height: 68px; */
+	margin: 12px 0px;
+	color: blue;
+	background-color: rgb(242, 247, 254);
+	border: .8px solid #aabeeb;
+	border-radius: 2px;
+}
+
+.contactmsg:hover {
+	background-color: rgb(246, 249, 253);
+	border: .8px solid #a2b4de;
+}
+
+.contactmsg:focus {
+	background-color: rgb(40, 40, 40);
+	border: none;
+	color: antiquewhite;
+}
+
+#contactsend {
+	padding: 11px 22px;
+	color: rgb(140, 140, 248);
+	font-weight: 500;
+	text-decoration: none;
+	margin: 28px 0px;
+	border: none;
+	background-color: rgb(246, 247, 251);
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	filter: drop-shadow(12px 8px 5px #d1d1da57);
+	box-shadow: -6px -6px 10px rgb(255, 255, 255);
+}
+
+#contactsend:hover {
+	color: rgb(239, 175, 106);
+	font-weight: 500;
+	text-decoration: none;
+	border: none;
+	background-color: rgb(249, 250, 254);
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	filter: drop-shadow(12px 8px 5px #d1d1da57);
+	box-shadow: -6px -6px 10px rgb(255, 255, 255);
+	transition: all ease 0.2s;
+	-webkit-transition: all ease 0.2s;
+	-moz-transition: all ease 0.2s;
+	-ms-transition: all ease 0.2s;
+	-o-transition: all ease 0.2s;
+}
+
+#contactsend:active {
+	color: rgb(140, 140, 248);
+	font-weight: 500;
+	text-decoration: none;
+	border: none;
+	background-color: rgb(243, 244, 249);
+	border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
+	filter: none;
+	box-shadow: none;
+	-webkit-filter: none;
+}
+
+.hide {
+	visibility: hidden
+}
+
+.visible {
+	margin-top: 22px;
+	margin-left: 6px;
+	font-weight: 300;
+	font-size: 33px;
+	color: rgb(64, 64, 233);
+}
+
+
+
+
+
+
 .dlbutton {
-	margin-top: 23px;
+	margin-top: 33px;
 }
 
 /* #dlresume {
@@ -463,9 +595,19 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .resumeContent {
-	border: 1px solid rgb(64, 64, 233);
+	border: .8px solid rgb(64, 64, 233);
+	border-radius: 3px;
 	background-color: rgba(255, 255, 255, 0.507);
 	color: rgb(64, 64, 233);
 	padding: 70px 70px;
-	margin-top: 50px;
+	margin-top: 100px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	-ms-border-radius: 3px;
+	-o-border-radius: 3px;
+}
+
+.resumeheaders {
+	font-size: 20px;
+	font-weight: 400;
 }

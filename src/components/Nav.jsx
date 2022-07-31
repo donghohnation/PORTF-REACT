@@ -56,7 +56,7 @@ function Nav() {
 		greeting = "GOOD MORNING";
 	} else if (currentTime < 18) {
 		greeting = "GOOD AFTERNOON";
-	} else if (currentTime < 21) {
+	} else if (currentTime < 22) {
 		greeting = "GOOD EVENING";
 	} else {
 		greeting = "GOOD NIGHT";
@@ -83,7 +83,7 @@ function Nav() {
 						<li className="dash">_</li>
 						<li><a href="#About Me">About Me</a></li>
 						<li><a href="#Work">Work</a></li>
-						<li><a href="#Contact">Contact</a></li>
+						<li><a href="#Contact-form">Contact</a></li>
 						<li><a href="#Resume">Resume</a></li>
 						<li><a href="#Top">Top</a></li>
 						<br></br>
