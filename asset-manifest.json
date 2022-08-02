@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/PORTF-REACT/static/css/main.1b5b4340.css",
-    "main.js": "/PORTF-REACT/static/js/main.9ddb160d.js",
+    "main.css": "/PORTF-REACT/static/css/main.bf65e4ca.css",
+    "main.js": "/PORTF-REACT/static/js/main.e688304c.js",
     "static/media/proj1_supersearch.png": "/PORTF-REACT/static/media/proj1_supersearch.04a942b0a690213568d9.png",
     "static/media/Avatar-3_1-5.svg": "/PORTF-REACT/static/media/Avatar-3_1-5.687d64c9d53c40354b1c34cfeab41b3a.svg",
     "static/media/proj2_drinkreviews.png": "/PORTF-REACT/static/media/proj2_drinkreviews.819dacf97af09b2f6c28.png",
     "static/media/Donghoh_Han–CV.pdf": "/PORTF-REACT/static/media/Donghoh_Han–CV.145a41f965ce09fb6cb7.pdf",
+    "static/media/placeholder.jpg": "/PORTF-REACT/static/media/placeholder.560997f86173a6812ed5.jpg",
     "index.html": "/PORTF-REACT/index.html",
-    "main.1b5b4340.css.map": "/PORTF-REACT/static/css/main.1b5b4340.css.map",
-    "main.9ddb160d.js.map": "/PORTF-REACT/static/js/main.9ddb160d.js.map"
+    "main.bf65e4ca.css.map": "/PORTF-REACT/static/css/main.bf65e4ca.css.map",
+    "main.e688304c.js.map": "/PORTF-REACT/static/js/main.e688304c.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b5b4340.css",
-    "static/js/main.9ddb160d.js"
+    "static/css/main.bf65e4ca.css",
+    "static/js/main.e688304c.js"
   ]
 }
