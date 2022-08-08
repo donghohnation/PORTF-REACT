@@ -6,7 +6,7 @@ import React from "react";
 function WorkCard(props) {
 
 	return (
-		<div className="col projectDiv  no-gutters">
+		<div className="col projectDiv">
 
 
 
@@ -30,8 +30,13 @@ function WorkCard(props) {
 			</p>
 
 
-			<div className="text-center projBtns">
-				<a className="projBtn" href={props.sourcelink} target="_blank">source code</a><a className="projBtn" href={props.deploylink} target="_blank">deployed link</a>
+			{/* <div className="text-center projBtns"> */}
+			<div className="row projBtns">
+
+				<a className="col text-center projBtn" href={props.sourcelink} target="_blank">source code</a>
+
+				<a className="col text-center projBtn" href={props.deploylink} target="_blank">deployed link</a>
+				
 			</div>
 
 

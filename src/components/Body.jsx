@@ -4,21 +4,23 @@ import AboutMe from "./BodySections/AboutMe";
 import Work from "./BodySections/Work";
 import Contact from "./BodySections/Contact";
 import Resume from "./BodySections/Resume"
+import Footer from "./BodySections/Footer";
 
 
 
 
 function Body() {
 
-    return (
-        <div className="content">
-            <Hero />
-            <AboutMe />
-            <Work />
-            <Contact />
-            <Resume />
-        </div>
-    )
+	return (
+		<div className="content">
+			<Hero />
+			<AboutMe />
+			<Work />
+			<Contact />
+			<Resume />
+			<Footer />
+		</div>
+	)
 
 }
 

@@ -9,11 +9,15 @@ font-family: 'Inconsolata', monospace; */
 body {
 	background-color: rgb(244, 246, 249);
 	font-family: 'Inconsolata', monospace;
+	color: rgb(64, 64, 233);
 }
 
 .bodybackground {
 	transition: all ease 0.4s;
 }
+
+
+
 
 body::-webkit-scrollbar {
 	background-color: transparent;
@@ -45,9 +49,12 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 
+
+
+
 #greettime {
 	margin-left: 180px;
-	margin-top: -23px;
+	margin-top: -18px;
 	font-size: 55px;
 	font-weight: 400;
 	letter-spacing: 4px;
@@ -106,7 +113,7 @@ body::-webkit-scrollbar-thumb:hover {
 	text-decoration: none;
 	font-weight: 400;
 	font-size: 17px;
-	line-height: 21px;
+	line-height: 26px;
 	color: rgb(64, 64, 233);
 }
 
@@ -129,6 +136,7 @@ body::-webkit-scrollbar-thumb:hover {
 @media (max-width: 1400px) {
 	.nav ul {
 		margin-left: 0px;
+		/* position: relative; */
 	}
 }
 
@@ -138,6 +146,9 @@ body::-webkit-scrollbar-thumb:hover {
 	font-weight: 500;
 	line-height: 32px;
 }
+
+
+
 
 
 
@@ -153,13 +164,22 @@ body::-webkit-scrollbar-thumb:hover {
 
 #avatar:hover {
 	filter: hue-rotate(90deg);
+	transform: scale(1.012);
 	opacity: 60%;
 	transition: all ease 0.4s;
 	-webkit-transition: all ease 0.4s;
 	-moz-transition: all ease 0.4s;
 	-ms-transition: all ease 0.4s;
 	-o-transition: all ease 0.4s;
+	-webkit-transform: scale(1.012);
+	-moz-transform: scale(1.012);
+	-ms-transform: scale(1.012);
+	-o-transform: scale(1.012);
 }
+
+
+
+
 
 
 
@@ -194,13 +214,11 @@ body::-webkit-scrollbar-thumb:hover {
 
 
 
+
+
 .rowow {
-	/* background-color: rgb(205, 212, 255); */
 	padding-bottom: 20px;
 	padding-top: 20px;
-	/* margin-right: 500px;
-  margin-left: 180px; */
-	/* border: 4px solid rgb(255, 9, 62); */
 }
 
 .d1 {
@@ -214,27 +232,40 @@ body::-webkit-scrollbar-thumb:hover {
 	background-repeat: repeat-x;
 }
 
+
+
+
+
+
 #title {
-	/* background-color: rgb(206, 206, 213); */
 	font-family: 'Bebas Neue', cursive;
 	font-weight: 300;
 	font-size: 160px;
-	/* margin-top: 200px; */
-	/* color:rgba(0, 0, 0, 0) */
 	-webkit-text-fill-color: transparent;
-	-webkit-text-stroke: 1.5px rgb(64, 64, 233);
+	-webkit-text-stroke: 1.8px;
+	transition: all ease 0.2s;
+}
+
+#title:hover {
+	-webkit-text-stroke: 2.4px;
+	transition: all ease 0.2s;
+	-webkit-transition: all ease 0.2s;
+	-moz-transition: all ease 0.2s;
+	-ms-transition: all ease 0.2s;
+	-o-transition: all ease 0.2s;
 }
 
 #titlecaption {
 	font-family: 'Inconsolata', monospace;
-	color: rgb(64, 64, 233);
 	font-size: 32px;
-	font-weight: 600;
+	font-weight: 300;
 }
 
+
+
+
+
 .d2about {
-	/* padding-top: 244px;
-  padding-bottom: 244px; */
 	padding: 300px 0px;
 }
 
@@ -243,14 +274,15 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .d4resume {
-	/* padding-top: 244px;
-  padding-bottom: 244px; */
 	padding: 300px 0px;
 }
 
+
+
+
+
 .sectionheader {
 	font-family: 'Inconsolata', monospace;
-	color: rgb(64, 64, 233);
 	letter-spacing: 4px;
 	font-weight: 600;
 	font-size: 44px;
@@ -258,12 +290,19 @@ body::-webkit-scrollbar-thumb:hover {
 
 .sectiondescription {
 	font-family: 'Inconsolata', monospace;
-	color: rgb(64, 64, 233);
 	font-weight: 400;
 	font-size: 24px;
 	line-height: 32px;
 	margin-top: 50px;
 }
+
+
+
+
+
+
+
+
 
 .projectRow1 {
 	margin-top: 60px;
@@ -275,7 +314,7 @@ body::-webkit-scrollbar-thumb:hover {
 	border-radius: 4px;
 	margin: 15px;
 	padding-top: 18px;
-	padding-bottom: 42px;
+	padding-bottom: 22px;
 	padding-left: 18px;
 	padding-right: 18px;
 	-webkit-border-radius: 4px;
@@ -285,18 +324,13 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 
-
-
-
 .image {
-	/* width: 500px; */
 	max-width: 100%;
 }
 
 
 .projectTitles {
 	font-family: 'Inconsolata', monospace;
-	color: rgb(64, 64, 233);
 	font-weight: 500;
 	font-size: 28px;
 	margin-top: 44px;
@@ -305,12 +339,11 @@ body::-webkit-scrollbar-thumb:hover {
 
 .projectDescriptions {
 	font-family: 'Inconsolata', monospace;
-	color: rgb(64, 64, 233);
 	font-weight: 400;
-	font-size: 22px;
+	font-size: 21px;
 	line-height: 26px;
 	margin-top: 34px;
-	margin-bottom: 44px;
+	margin-bottom: 24px;
 }
 
 
@@ -323,67 +356,51 @@ body::-webkit-scrollbar-thumb:hover {
 	color: white;
 	padding: 4px 12px;
 	font-weight: 600;
-	/* margin: 0px 5px; */
-	/* margin-top: 8px; */
+	line-height: 26px;
+	overflow-wrap: break-word;
 }
 
 
 .projBtns {
-	margin-top: 42px;
+	margin: 0px 22px;
 }
 
 .projBtn {
 	padding: 11px 13px;
-	color: rgb(140, 140, 248);
+	color: rgb(97, 117, 218);
 	font-weight: 500;
 	text-decoration: none;
 	margin: 11px;
 	border: none;
-	background-color: rgb(246, 247, 251);
-	border-radius: 4px;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	-ms-border-radius: 4px;
-	-o-border-radius: 4px;
+	border-radius: 5px;
+	background-color: rgb(244, 246, 249);
 	filter: drop-shadow(12px 8px 5px #d1d1da57);
 	box-shadow: -6px -6px 10px rgb(255, 255, 255);
 }
 
 .projBtn:hover {
-	padding: 11px 13px;
+	cursor: pointer;
 	color: rgb(239, 175, 106);
 	font-weight: 500;
 	text-decoration: none;
-	margin: 11px;
 	border: none;
-	background-color: rgb(249, 250, 254);
-	border-radius: 4px;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	-ms-border-radius: 4px;
-	-o-border-radius: 4px;
-	filter: drop-shadow(12px 8px 5px #d1d1da57);
-	box-shadow: -6px -6px 10px rgb(255, 255, 255);
+	background-color: rgba(249, 250, 254, 0.902);
+	filter: drop-shadow(8px 6px 5px #c2c2cb73);
+	box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.612);
 	transition: all ease 0.2s;
 	-webkit-transition: all ease 0.2s;
 	-moz-transition: all ease 0.2s;
 	-ms-transition: all ease 0.2s;
 	-o-transition: all ease 0.2s;
+	-webkit-filter: drop-shadow(8px 6px 5px #c2c2cb73);
 }
 
 .projBtn:active {
-	padding: 11px 13px;
 	color: rgb(140, 140, 248);
 	font-weight: 500;
 	text-decoration: none;
-	margin: 11px;
 	border: none;
 	background-color: rgb(243, 244, 249);
-	border-radius: 4px;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	-ms-border-radius: 4px;
-	-o-border-radius: 4px;
 	filter: none;
 	box-shadow: none;
 	-webkit-filter: none;
@@ -397,7 +414,6 @@ body::-webkit-scrollbar-thumb:hover {
 	font-size: 18px;
 	margin-top: 99px;
 	margin-left: 2px;
-	color: rgb(64, 64, 233);
 }
 
 
@@ -407,6 +423,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 .contactinputs {
 	height: 36px;
+	width: 100%;
 	padding: 12px;
 	margin: 12px 0px;
 	color: blue;
@@ -421,7 +438,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 .contactinputs:hover {
 	background-color: rgb(246, 249, 253);
-	border: .8px solid #a2b4de;
+	border: .8px solid #cdd8f1;
 }
 
 .contactinputs:focus {
@@ -443,7 +460,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 .contactmsg:hover {
 	background-color: rgb(246, 249, 253);
-	border: .8px solid #a2b4de;
+	border: .8px solid #cdd8f1;
 }
 
 .contactmsg:focus {
@@ -475,11 +492,6 @@ body::-webkit-scrollbar-thumb:hover {
 	text-decoration: none;
 	border: none;
 	background-color: rgb(249, 250, 254);
-	border-radius: 4px;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	-ms-border-radius: 4px;
-	-o-border-radius: 4px;
 	filter: drop-shadow(12px 8px 5px #d1d1da57);
 	box-shadow: -6px -6px 10px rgb(255, 255, 255);
 	transition: all ease 0.2s;
@@ -495,11 +507,6 @@ body::-webkit-scrollbar-thumb:hover {
 	text-decoration: none;
 	border: none;
 	background-color: rgb(243, 244, 249);
-	border-radius: 4px;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	-ms-border-radius: 4px;
-	-o-border-radius: 4px;
 	filter: none;
 	box-shadow: none;
 	-webkit-filter: none;
@@ -514,7 +521,6 @@ body::-webkit-scrollbar-thumb:hover {
 	margin-left: 6px;
 	font-weight: 300;
 	font-size: 33px;
-	color: rgb(64, 64, 233);
 }
 
 
@@ -523,51 +529,33 @@ body::-webkit-scrollbar-thumb:hover {
 
 
 .dlbutton {
-	margin-top: 33px;
+	margin-top: 73px;
+
 }
 
-/* #dlresume {
-	padding: 11px 13px;
-	color: rgb(140, 140, 248);
-	font-weight: 500;
-	text-decoration: none;
-	background-color: rgb(246, 247, 251);
-	border-radius: 4px;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	-ms-border-radius: 4px;
-	-o-border-radius: 4px;
-	filter: drop-shadow(12px 8px 5px #d1d1da57);
-	box-shadow: -6px -6px 10px rgba(255, 255, 255, 0.871);
-} */
 #dlresume {
-	padding: 11px 13px;
+	padding: 11px 55px;
 	color: rgb(140, 140, 248);
 	font-weight: 500;
+	width: 99%;
 	text-decoration: none;
 	border: none;
 	background-color: rgb(246, 247, 251);
-	border-radius: 4px;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	-ms-border-radius: 4px;
-	-o-border-radius: 4px;
+	border-radius: 7px;
+	-webkit-border-radius: 7px;
+	-moz-border-radius: 7px;
+	-ms-border-radius: 7px;
+	-o-border-radius: 7px;
 	filter: drop-shadow(12px 8px 5px #d1d1da57);
 	box-shadow: -6px -6px 10px rgb(255, 255, 255);
 }
 
 #dlresume:hover {
-	padding: 11px 13px;
 	color: rgb(239, 175, 106);
 	font-weight: 500;
 	text-decoration: none;
 	border: none;
 	background-color: rgb(249, 250, 254);
-	border-radius: 4px;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	-ms-border-radius: 4px;
-	-o-border-radius: 4px;
 	filter: drop-shadow(12px 8px 5px #d1d1da57);
 	box-shadow: -6px -6px 10px rgb(255, 255, 255);
 	transition: all ease 0.2s;
@@ -578,17 +566,11 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 #dlresume:active {
-	padding: 11px 13px;
 	color: rgb(140, 140, 248);
-	font-weight: 500;
+	font-weight: 700;
 	text-decoration: none;
 	border: none;
 	background-color: rgb(243, 244, 249);
-	border-radius: 4px;
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	-ms-border-radius: 4px;
-	-o-border-radius: 4px;
 	filter: none;
 	box-shadow: none;
 	-webkit-filter: none;
@@ -598,9 +580,8 @@ body::-webkit-scrollbar-thumb:hover {
 	border: .8px solid rgb(64, 64, 233);
 	border-radius: 3px;
 	background-color: rgba(255, 255, 255, 0.507);
-	color: rgb(64, 64, 233);
 	padding: 70px 70px;
-	margin-top: 100px;
+	margin-top: 50px;
 	-webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
 	-ms-border-radius: 3px;
@@ -609,5 +590,29 @@ body::-webkit-scrollbar-thumb:hover {
 
 .resumeheaders {
 	font-size: 20px;
-	font-weight: 400;
+	font-weight: 500;
+}
+
+
+
+.footer {
+	padding-bottom: 70px;
+	background-image: linear-gradient(to right, rgb(64, 64, 233) 10%, rgba(255, 255, 255, 0) 0%);
+	background-position: bottom;
+	background-size: 15px 33px;
+	background-repeat: repeat-x;
+}
+
+#footerdivleft {
+	width: 100%;
+	text-align: right;
+}
+
+#footeravatar {
+	width: 66px;
+}
+
+#footerdivright {
+	width: 100%;
+	text-align: left;
 }

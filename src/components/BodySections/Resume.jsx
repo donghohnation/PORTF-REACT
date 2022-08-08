@@ -8,12 +8,13 @@ function Resume() {
 	return (
 
 		<div className="row rowow">
+			<div className="col dotted-spaced">
 			<div className="col-10 d4resume">
 
 				<h3 className="sectionheader" id="Resume">RESUME</h3>
 
-				<div className="dlbutton">
-					<a id="dlresume" href={require("../../assets/Donghoh_Han–CV.pdf")} target="_blank">download pdf</a>
+				<div className="col text-center dlbutton">
+					<a className="" id="dlresume" href={require("../../assets/Donghoh_Han–CV.pdf")} target="_blank">download pdf</a>
 				</div>
 
 				<div className="resumeContent">
@@ -62,6 +63,7 @@ function Resume() {
 						cards, posters, photographs, display boards, posters among others.</p>
 
 				</div>
+			</div>
 			</div>
 		</div>
 	);

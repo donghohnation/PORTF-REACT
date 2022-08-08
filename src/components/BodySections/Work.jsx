@@ -13,31 +13,56 @@ function Work() {
 
 
 				<h3 className="sectionheader" id="Work">MY WORK</h3>
-				<p className="sectiondescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-					aliqua.</p>
+				{/* <p className="sectiondescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnaaliqua.</p> */}
 
 
 
 				<div className="row projectRow1">
 
-					<WorkCard 
-						img= {require("../../assets/images/proj1_supersearch.png")}
-						title= "Superhero Gif Search"
-						description= "Do you like superheroes and need a gif to show it? Use this app!"
-						sourcelink= "https://github.com/lamnong/project1.team2"
-						deploylink= "https://lamnong.github.io/project1.team2/"
-						projecttech= "HTML CSS JAVASCRIPT"
+					<WorkCard
+						img={require("../../assets/images/proj4_babble.png")}
+						title="Babble Exchange"
+						description="Chat application to chat with your friends"
+						sourcelink="https://github.com/DesertCow/Babble-Exchange"
+						deploylink="https://babble-exchange.herokuapp.com/"
+						projecttech="HTML CSS JAVASCRIPT REACT MONGODB"
 					/>
-					
-					<WorkCard 
+
+					<WorkCard
+						img={require("../../assets/images/proj1_supersearch.png")}
+						title="Superhero Gif Search"
+						description="Do you like superheroes and need a gif to show it? Use this app!"
+						sourcelink="https://github.com/lamnong/project1.team2"
+						deploylink="https://lamnong.github.io/project1.team2/"
+						projecttech="HTML CSS JAVASCRIPT"
+					/>
+
+
+				</div>
+
+
+
+				<div className="row projectRow2">
+
+					<WorkCard
+						img={require("../../assets/images/proj3_weather.png")}
+						title="Weather Forcast"
+						description="Forcast the weather in any city for the next 5 days."
+						sourcelink="https://github.com/donghohnation/weathcast"
+						deploylink="https://donghohnation.github.io/weathcast/"
+						projecttech="HTML CSS JAVASCRIPT"
+					/>
+
+					<WorkCard
 						img={require("../../assets/images/proj2_drinkreviews.png")}
-						title= "Drink Reviews"
-						description= "Do you like trying out new drinks? Keep track of the drinks you've tried and liked!"
+						title="Drink Reviews"
+						description="Do you like trying out new drinks? Keep track of the drinks you've tried and liked!"
 						sourcelink="https://github.com/donghohnation/drink-reviews"
 						deploylink="https://drinkrevi.herokuapp.com/"
 						projecttech="HTML CSS JAVASCRIPT NODE MYSQL EXPRESS"
-					/>
 
+					/>
+					
 				</div>
 
 
@@ -51,7 +76,6 @@ function Work() {
 						sourcelink="https://donghohdesigns.squarespace.com/starlite-flip-chip-opto/"
 						deploylink="https://donghohdesigns.squarespace.com/starlite-flip-chip-opto/"
 						projecttech="PHOTOSHOP LIGHTROOM ILLUSTRATOR"
-
 					/>
 
 					<WorkCard
@@ -64,8 +88,6 @@ function Work() {
 					/>
 
 				</div>
-
-
 
 
 			</div>
