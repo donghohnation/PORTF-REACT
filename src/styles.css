@@ -154,9 +154,9 @@ body::-webkit-scrollbar-thumb:hover {
 
 
 #avatar {
-	width: 155px;
+	width: 222px;
 	padding-bottom: 50px;
-	margin-left: 120px;
+	margin-left: 50px;
 	margin-top: -38px;
 
 
@@ -323,9 +323,19 @@ body::-webkit-scrollbar-thumb:hover {
 	-o-border-radius: 4px;
 }
 
+.projectDiv:hover {
+	background-color: rgba(251, 252, 254, 0.819);
+	transition: all .3s;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	-ms-transition: all .3s;
+	-o-transition: all .3s;
+}
+
 
 .image {
 	max-width: 100%;
+	border: .3px solid rgb(170, 170, 215);
 }
 
 
