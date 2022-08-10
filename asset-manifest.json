@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/PORTF-REACT/static/css/main.6731f93e.css",
+    "main.css": "/PORTF-REACT/static/css/main.63cf7dbf.css",
     "main.js": "/PORTF-REACT/static/js/main.1a825ec2.js",
     "static/media/proj1_supersearch.png": "/PORTF-REACT/static/media/proj1_supersearch.04a942b0a690213568d9.png",
     "static/media/Avatar-3_1-5.svg": "/PORTF-REACT/static/media/Avatar-3_1-5.687d64c9d53c40354b1c34cfeab41b3a.svg",
@@ -10,11 +10,11 @@
     "static/media/Donghoh_Han–CV.pdf": "/PORTF-REACT/static/media/Donghoh_Han–CV.145a41f965ce09fb6cb7.pdf",
     "static/media/proj4_babble.png": "/PORTF-REACT/static/media/proj4_babble.1d1c2906166efceca659.png",
     "index.html": "/PORTF-REACT/index.html",
-    "main.6731f93e.css.map": "/PORTF-REACT/static/css/main.6731f93e.css.map",
+    "main.63cf7dbf.css.map": "/PORTF-REACT/static/css/main.63cf7dbf.css.map",
     "main.1a825ec2.js.map": "/PORTF-REACT/static/js/main.1a825ec2.js.map"
   },
   "entrypoints": [
-    "static/css/main.6731f93e.css",
+    "static/css/main.63cf7dbf.css",
     "static/js/main.1a825ec2.js"
   ]
 }
