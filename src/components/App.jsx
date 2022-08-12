@@ -92,7 +92,7 @@ function App() {
 								<br></br>
 								
 								<div className="switch">
-									<label id="lightdark"> {theme === "light" ? "TOGGLE DARK MODE" : "TOGGLE LIGHT MODE"}</label>
+									<label id="lightdark"> {theme === "light" ? "TOGGLE ON DARK MODE" : "TOGGLE OFF DARK MODE"}</label>
 									<div>
 									<ReactSwitch onChange={toggleTheme} checked={theme === "dark"} />
 									</div>
