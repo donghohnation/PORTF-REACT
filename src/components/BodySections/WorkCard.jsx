@@ -33,9 +33,9 @@ function WorkCard(props) {
 			{/* <div className="text-center projBtns"> */}
 			<div className="row projBtns">
 
-				<a className="col text-center projBtn" href={props.sourcelink} target="_blank">source code</a>
+				<a className="col text-center btn" href={props.sourcelink} target="_blank">source code</a>
 
-				<a className="col text-center projBtn" href={props.deploylink} target="_blank">deployed link</a>
+				<a className="col text-center btn" href={props.deploylink} target="_blank">deployed link</a>
 				
 			</div>
 

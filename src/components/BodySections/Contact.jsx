@@ -68,7 +68,7 @@ const Contact = () => {
 						</div>
 
 						<div className="col-12 text-center">
-							<button id="contactsend" onClick={submit}>Send Message</button>
+							<button id="contactsend" className='btn' onClick={submit}>send message</button>
 						</div>
 					</div>
 

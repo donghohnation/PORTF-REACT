@@ -45,6 +45,15 @@ function Work() {
 				<div className="row projectRow2">
 
 					<WorkCard
+						img={require("../../assets/images/proj5_gifstagram.png")}
+						title="Gifstagram"
+						description="It's like Instagram, for GIFs!"
+						sourcelink="https://github.com/donghohnation/gifstagram"
+						deploylink="https://donghohnation.github.io/gifstagram/"
+						projecttech="HTML CSS JAVASCRIPT"
+					/>
+
+					<WorkCard
 						img={require("../../assets/images/proj3_weather.png")}
 						title="Weather Forcast"
 						description="Forcast the weather in any city for the next 5 days."
@@ -53,7 +62,7 @@ function Work() {
 						projecttech="HTML CSS JAVASCRIPT"
 					/>
 
-					<WorkCard
+					{/* <WorkCard
 						img={require("../../assets/images/proj2_drinkreviews.png")}
 						title="Drink Reviews"
 						description="Do you like trying out new drinks? Keep track of the drinks you've tried and liked!"
@@ -61,7 +70,7 @@ function Work() {
 						deploylink="https://drinkrevi.herokuapp.com/"
 						projecttech="HTML CSS JAVASCRIPT NODE MYSQL EXPRESS"
 
-					/>
+					/> */}
 					
 				</div>
 
