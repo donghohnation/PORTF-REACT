@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/PORTF-REACT/static/css/main.63cf7dbf.css",
-    "main.js": "/PORTF-REACT/static/js/main.1a825ec2.js",
+    "main.css": "/PORTF-REACT/static/css/main.fc2c8a94.css",
+    "main.js": "/PORTF-REACT/static/js/main.1ef05d72.js",
     "static/media/proj1_supersearch.png": "/PORTF-REACT/static/media/proj1_supersearch.04a942b0a690213568d9.png",
+    "static/media/proj5_gifstagram.png": "/PORTF-REACT/static/media/proj5_gifstagram.434df1f2c7273e664c3c.png",
     "static/media/Avatar-3_1-5.svg": "/PORTF-REACT/static/media/Avatar-3_1-5.687d64c9d53c40354b1c34cfeab41b3a.svg",
     "static/media/Avatar-4_footer.svg": "/PORTF-REACT/static/media/Avatar-4_footer.5905cffcabc1266d823dd6cf87b1a08b.svg",
     "static/media/proj3_weather.png": "/PORTF-REACT/static/media/proj3_weather.86e70859cf1fec912560.png",
-    "static/media/proj2_drinkreviews.png": "/PORTF-REACT/static/media/proj2_drinkreviews.819dacf97af09b2f6c28.png",
     "static/media/Donghoh_Han–CV.pdf": "/PORTF-REACT/static/media/Donghoh_Han–CV.145a41f965ce09fb6cb7.pdf",
     "static/media/proj4_babble.png": "/PORTF-REACT/static/media/proj4_babble.1d1c2906166efceca659.png",
     "index.html": "/PORTF-REACT/index.html",
-    "main.63cf7dbf.css.map": "/PORTF-REACT/static/css/main.63cf7dbf.css.map",
-    "main.1a825ec2.js.map": "/PORTF-REACT/static/js/main.1a825ec2.js.map"
+    "main.fc2c8a94.css.map": "/PORTF-REACT/static/css/main.fc2c8a94.css.map",
+    "main.1ef05d72.js.map": "/PORTF-REACT/static/js/main.1ef05d72.js.map"
   },
   "entrypoints": [
-    "static/css/main.63cf7dbf.css",
-    "static/js/main.1a825ec2.js"
+    "static/css/main.fc2c8a94.css",
+    "static/js/main.1ef05d72.js"
   ]
 }
