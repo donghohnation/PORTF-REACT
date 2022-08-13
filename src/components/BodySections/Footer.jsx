@@ -14,7 +14,8 @@ function Footer() {
 			</div>
 
 
-			<div className="col-2 text-center"><img id="footeravatar" src={ava} alt='footeravatar'></img>
+			<div className="col col-sm-2 text-center">
+				<img id="footeravatar" src={ava} alt='footeravatar'></img>
 			</div>
 
 

@@ -9,7 +9,7 @@ function Resume() {
 
 		<div className="row rowow">
 			<div className="col dotted-spaced">
-			<div className="col-10 d4resume">
+			<div className="col col-lg-10 d4resume">
 
 				<h3 className="sectionheader" id="Resume">RESUME</h3>
 

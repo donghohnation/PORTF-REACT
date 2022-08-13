@@ -66,7 +66,7 @@ function App() {
 
 
 
-						<div className="col col-sm">
+						<div className="col-10">
 							<h1 id="greettime" style={customStyle}>
 								{greeting} <span id="time"></span>
 							</h1>
@@ -92,7 +92,7 @@ function App() {
 								<br></br>
 								
 								<div className="switch">
-									<label id="lightdark"> {theme === "light" ? "TOGGLE ON DARK MODE" : "TOGGLE OFF DARK MODE"}</label>
+									<label id="lightdark"> {theme === "light" ? "TOGGLE DARK MODE" : "TOGGLE DARK MODE"}</label>
 									<div>
 									<ReactSwitch onChange={toggleTheme} checked={theme === "dark"} />
 									</div>
