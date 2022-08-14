@@ -255,51 +255,55 @@ body::-webkit-scrollbar-thumb:hover {
 
 
 
-
 #avatar {
+	position: absolute;
+	top: 0;
+	left: 0;
 	width: 222px;
-	padding-bottom: 50px;
-	margin-left: 50px;
-	margin-top: -38px;
-}
-
-#dark #avatar {
-	width: 222px;
-	padding-bottom: 50px;
-	margin-left: 50px;
-	filter: hue-rotate(345deg) saturate(25%) brightness(322%);
-	margin-top: -38px;
-	-webkit-filter: hue-rotate(345deg) saturate(25%) brightness(322%);
+	margin-top: 33px;
+	margin-left: 63px;
 }
 
 #avatar:hover {
-	filter: hue-rotate(90deg);
-	transform: scale(1.012);
-	opacity: 60%;
-	transition: all ease 0.4s;
-	-webkit-transition: all ease 0.4s;
-	-moz-transition: all ease 0.4s;
-	-ms-transition: all ease 0.4s;
-	-o-transition: all ease 0.4s;
-	-webkit-transform: scale(1.012);
-	-moz-transform: scale(1.012);
-	-ms-transform: scale(1.012);
-	-o-transform: scale(1.012);
-	-webkit-filter: hue-rotate(90deg);
+	transition: all ease 1s;
+	filter: hue-rotate(177deg);
+	-webkit-filter: hue-rotate(177deg);
 }
 
-#dark #avatar:hover {
-	transform: scale(1.012);
-	transition: all ease 0.4s;
-	-webkit-transition: all ease 0.4s;
-	-moz-transition: all ease 0.4s;
-	-ms-transition: all ease 0.4s;
-	-o-transition: all ease 0.4s;
-	-webkit-transform: scale(1.012);
-	-moz-transform: scale(1.012);
-	-ms-transform: scale(1.012);
-	-o-transform: scale(1.012);
+#avatar2 {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 211px;
+	/* filter: hue-rotate(177deg); */
+	margin-top: 40px;
+	margin-left: 68px;
+	transition: all ease 1s;
+	-webkit-transition: all ease 1s;
+	-moz-transition: all ease 1s;
+	-ms-transition: all ease 1s;
+	-o-transition: all ease 1s;
 }
+
+#avatar2:hover {
+	opacity: 1;
+	filter: hue-rotate(325deg);
+	-webkit-filter: hue-rotate(325deg);
+}
+
+#dark #avatar2:hover {
+	opacity: 1;
+	filter: hue-rotate(97deg);
+	-webkit-filter: hue-rotate(97deg);
+}
+
+
+#dark #avatar {
+	filter: hue-rotate(345deg) saturate(25%) brightness(322%);
+	-webkit-filter: hue-rotate(345deg) saturate(25%) brightness(322%);
+}
+
 
 
 
@@ -308,7 +312,8 @@ body::-webkit-scrollbar-thumb:hover {
 
 
 .content {
-	margin-top: 90px;
+	/* margin-top: 90px; */
+	margin-top: 420px;
 	margin-right: 500px;
 	margin-left: 180px;
 }

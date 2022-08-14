@@ -1,8 +1,10 @@
 import React, { createContext, useState } from "react";
+import { render } from "react-dom";
 import ReactSwitch from "react-switch";
 import Nav from "./Nav";
 import Body from "./Body";
-import ava from "../assets/images/Avatar-3_1-5.svg"
+import ava from "../assets/images/Avatar-3_1-5.svg";
+import ava2 from "../assets/images/profile_1-3.png";
 
 // import Head from "./Head";
 
@@ -55,6 +57,8 @@ function App() {
 	}
 
 
+	
+
 
 	return (
 		<ThemeContext.Provider value={{ theme, toggleTheme }}>
@@ -103,8 +107,13 @@ function App() {
 
 
 					</div>
-					<div>
-						<img id="avatar" src={ava} alt='avatar'></img>
+					<div className="parent">
+						<img className="child1" id="avatar" src={ava} alt='avatar'></img>
+						<img className="child2" id="avatar2" src={ava2} alt=''></img>
+						
+
+						
+
 					</div>
 				</div>
 
