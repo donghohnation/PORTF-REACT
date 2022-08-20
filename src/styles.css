@@ -143,6 +143,7 @@ body::-webkit-scrollbar-thumb:hover {
 	position: fixed;
 	z-index: 1;
 	margin-left: 100px;
+	/* background-color: rgba(67, 162, 234, 0.828); */
 	background-color: rgba(27, 36, 43, 0.828);
 	padding-bottom: 28px;
 	padding-top: 20px;
@@ -160,15 +161,35 @@ body::-webkit-scrollbar-thumb:hover {
 	}
 }
 
-@media (max-width: 566px) {
+@media (max-width: 640px) {
 	.nav ul {
-		margin-left: -44px;
-		margin-top: -81px;
+		margin-left: 0px;
+		scale: .76;
+		margin-top: -51px;
+		padding-left: 8px;
 	}
 
 	#dark .nav ul {
-		margin-left: -44px;
+		margin-left: 0px;
+		scale: .76;
+		margin-top: -51px;
+		padding-left: 8px;
+	}
+}
+
+@media (max-width: 566px) {
+	.nav ul {
+		margin-left: -33px;
+		margin-right: -14px;
 		margin-top: -81px;
+		padding-left: 12px;
+	}
+
+	#dark .nav ul {
+		margin-left: -33px;
+		margin-right: -14px;
+		margin-top: -81px;
+		padding-left: 12px;
 	}
 }
 
@@ -335,8 +356,8 @@ body::-webkit-scrollbar-thumb:hover {
 
 @media (max-width: 760px) {
 	.content {
-		margin-left: 44px;
-		margin-right: 44px;
+		margin-left: 22px;
+		margin-right: 94px;
 	}
 }
 
@@ -353,6 +374,8 @@ body::-webkit-scrollbar-thumb:hover {
 
 .d1 {
 	padding-bottom: 344px;
+	padding-left: 0px;
+	padding-right: 0px;
 }
 
 .dotted-spaced {
@@ -387,7 +410,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 @media (max-width: 520px) {
 	#title {
-		font-size: 114px;
+		font-size: 102px;
 		-webkit-text-stroke: 1.2px;
 	}
 }
@@ -811,10 +834,6 @@ body::-webkit-scrollbar-thumb:hover {
 	-o-border-radius: 3px;
 }
 
-.resumeContent p {
-	line-height: 18px;
-}
-
 #dark .resumeContent {
 	border: .8px solid rgb(61,
 			84,
@@ -827,6 +846,30 @@ body::-webkit-scrollbar-thumb:hover {
 	-moz-border-radius: 3px;
 	-ms-border-radius: 3px;
 	-o-border-radius: 3px;
+}
+
+.resumeContent p {
+	line-height: 18px;
+}
+
+@media (max-width: 966px) {
+	.resumeContent {
+		padding: 40px 40px;
+	}
+
+	#dark .resumeContent {
+		padding: 40px 40px;
+	}
+}
+
+@media (max-width: 600px) {
+	.resumeContent {
+		padding: 31px 31px;
+	}
+
+	#dark .resumeContent {
+		padding: 31px 31px;
+	}
 }
 
 #dark .resumeContent p {

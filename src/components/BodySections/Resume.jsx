@@ -8,8 +8,8 @@ function Resume() {
 	return (
 
 		<div className="row rowow">
-			<div className="col dotted-spaced">
-			<div className="col col-lg-10 d4resume">
+			<div className="col dotted-spaced d4resume">
+			<div className="col col-lg-10">
 
 				<h3 className="sectionheader" id="Resume">RESUME</h3>
 
