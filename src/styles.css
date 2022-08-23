@@ -835,9 +835,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 #dark .resumeContent {
-	border: .8px solid rgb(61,
-			84,
-			104);
+	border: .8px solid rgb(61, 84, 104);
 	border-radius: 3px;
 	background-color: rgba(9, 14, 20, 0.237);
 	padding: 70px 70px;
@@ -850,6 +848,16 @@ body::-webkit-scrollbar-thumb:hover {
 
 .resumeContent p {
 	line-height: 18px;
+}
+
+@media (max-width: 2222px) {
+	.resumeContent {
+		padding: 70px 70px;
+	}
+
+	#dark .resumeContent {
+		padding: 70px 70px;
+	}
 }
 
 @media (max-width: 966px) {
