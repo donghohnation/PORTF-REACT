@@ -297,14 +297,26 @@ body::-webkit-scrollbar-thumb:hover {
 	top: 0;
 	left: 0;
 	width: 211px;
-	/* filter: hue-rotate(177deg); */
-	margin-top: 40px;
+	/*filter: hue-rotate(177deg);
+	*/margin-top: 40px;
 	margin-left: 68px;
+	animation: fadeout 2s;
 	transition: all ease 1s;
 	-webkit-transition: all ease 1s;
 	-moz-transition: all ease 1s;
 	-ms-transition: all ease 1s;
 	-o-transition: all ease 1s;
+	-webkit-animation: fadeout 2s;
+}
+
+/* @keyframes fadein {
+	from { opacity: 0; }
+	to { opacity: 1; }
+} */
+
+@keyframes fadeout {
+	from { opacity: .7; }
+	to { opacity: 0; }
 }
 
 #avatar2:hover {
@@ -313,17 +325,32 @@ body::-webkit-scrollbar-thumb:hover {
 	-webkit-filter: hue-rotate(325deg);
 }
 
+#dark #avatar2 {
+	animation: fadeout2 2s;
+	-webkit-animation: fadeout2 2s;
+}
+
 #dark #avatar2:hover {
 	opacity: 1;
 	filter: hue-rotate(97deg);
 	-webkit-filter: hue-rotate(97deg);
 }
 
+@keyframes fadeout2 {
+	from {
+		opacity: .7;
+	}
+	
+	to {
+		opacity: 0;
+	}
+}
 
 #dark #avatar {
 	filter: hue-rotate(345deg) saturate(25%) brightness(322%);
 	-webkit-filter: hue-rotate(345deg) saturate(25%) brightness(322%);
 }
+
 
 
 
