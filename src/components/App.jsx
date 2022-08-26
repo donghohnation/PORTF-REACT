@@ -4,7 +4,7 @@ import ReactSwitch from "react-switch";
 import Nav from "./Nav";
 import Body from "./Body";
 import ava from "../assets/images/Avatar-3_1-5.svg";
-import ava2 from "../assets/images/profile_1-3.png";
+import ava2 from "../assets/images/profile_1-6.png";
 
 // import Head from "./Head";
 

@@ -283,6 +283,18 @@ body::-webkit-scrollbar-thumb:hover {
 	width: 222px;
 	margin-top: 33px;
 	margin-left: 63px;
+	animation: fadeout3 2s;
+	-webkit-animation: fadeout3 2s;
+}
+
+@keyframes fadeout3 {
+	from {
+		opacity: 0;
+}
+
+	to {
+		opacity: 1;
+}
 }
 
 #avatar:hover {
@@ -296,10 +308,11 @@ body::-webkit-scrollbar-thumb:hover {
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 211px;
+	width: 222px;
 	/*filter: hue-rotate(177deg);
-	*/margin-top: 40px;
-	margin-left: 68px;
+	*/
+	margin-top: 33px;
+	margin-left: 63px;
 	animation: fadeout 2s;
 	transition: all ease-out .7s;
 	-webkit-transition: all ease-out .7s;
@@ -315,14 +328,23 @@ body::-webkit-scrollbar-thumb:hover {
 } */
 
 @keyframes fadeout {
-	from { opacity: .7; }
-	to { opacity: 0; }
+	from {
+		opacity: .8;
+		filter: hue-rotate(0deg);
+			-webkit-filter: hue-rotate(0deg);
+	}
+
+	to {
+		opacity: 0;
+		filter: hue-rotate(720deg);
+		-webkit-filter: hue-rotate(720deg);
+}
 }
 
 #avatar2:hover {
 	opacity: 1;
-	filter: hue-rotate(325deg);
-	-webkit-filter: hue-rotate(325deg);
+	filter: hue-rotate(685deg);
+	-webkit-filter: hue-rotate(685deg);
 }
 
 #dark #avatar2 {
@@ -332,18 +354,22 @@ body::-webkit-scrollbar-thumb:hover {
 
 #dark #avatar2:hover {
 	opacity: 1;
-	filter: hue-rotate(97deg);
-	-webkit-filter: hue-rotate(97deg);
+	filter: hue-rotate(832deg);
+	-webkit-filter: hue-rotate(832deg);
 }
 
 @keyframes fadeout2 {
 	from {
-		opacity: .7;
-	}
-	
+		opacity: .8;
+		filter: hue-rotate(0deg);
+		-webkit-filter: hue-rotate(0deg);
+}
+
 	to {
 		opacity: 0;
-	}
+		filter: hue-rotate(720deg);
+		-webkit-filter: hue-rotate(720deg);
+}
 }
 
 #dark #avatar {
