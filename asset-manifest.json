@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/PORTF-REACT/static/css/main.41976b28.css",
-    "main.js": "/PORTF-REACT/static/js/main.b19dff77.js",
+    "main.css": "/PORTF-REACT/static/css/main.02091c6f.css",
+    "main.js": "/PORTF-REACT/static/js/main.48d2599a.js",
     "static/media/proj1_supersearch.png": "/PORTF-REACT/static/media/proj1_supersearch.04a942b0a690213568d9.png",
     "static/media/proj5_gifstagram.png": "/PORTF-REACT/static/media/proj5_gifstagram.434df1f2c7273e664c3c.png",
-    "static/media/profile_1-3.png": "/PORTF-REACT/static/media/profile_1-3.743fc8cca691a955949a.png",
+    "static/media/profile_1-6.png": "/PORTF-REACT/static/media/profile_1-6.8aeabe069dc190995dab.png",
     "static/media/Avatar-3_1-5.svg": "/PORTF-REACT/static/media/Avatar-3_1-5.2afbc59a012d75c91f2f1e24d772c269.svg",
     "static/media/Avatar-4_footer.svg": "/PORTF-REACT/static/media/Avatar-4_footer.5905cffcabc1266d823dd6cf87b1a08b.svg",
     "static/media/Donghoh-Han-CV.pdf": "/PORTF-REACT/static/media/Donghoh-Han-CV.92db51bc0ee8c2648785.pdf",
     "static/media/proj3_weather.png": "/PORTF-REACT/static/media/proj3_weather.86e70859cf1fec912560.png",
     "static/media/proj4_babble.png": "/PORTF-REACT/static/media/proj4_babble.1d1c2906166efceca659.png",
     "index.html": "/PORTF-REACT/index.html",
-    "main.41976b28.css.map": "/PORTF-REACT/static/css/main.41976b28.css.map",
-    "main.b19dff77.js.map": "/PORTF-REACT/static/js/main.b19dff77.js.map"
+    "main.02091c6f.css.map": "/PORTF-REACT/static/css/main.02091c6f.css.map",
+    "main.48d2599a.js.map": "/PORTF-REACT/static/js/main.48d2599a.js.map"
   },
   "entrypoints": [
-    "static/css/main.41976b28.css",
-    "static/js/main.b19dff77.js"
+    "static/css/main.02091c6f.css",
+    "static/js/main.48d2599a.js"
   ]
 }
