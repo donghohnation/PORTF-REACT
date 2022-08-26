@@ -309,8 +309,6 @@ body::-webkit-scrollbar-thumb:hover {
 	top: 0;
 	left: 0;
 	width: 222px;
-	/*filter: hue-rotate(177deg);
-	*/
 	margin-top: 33px;
 	margin-left: 63px;
 	animation: fadeout 2s;
@@ -322,22 +320,27 @@ body::-webkit-scrollbar-thumb:hover {
 	-webkit-animation: fadeout 2s;
 }
 
-/* @keyframes fadein {
-	from { opacity: 0; }
-	to { opacity: 1; }
-} */
-
 @keyframes fadeout {
 	from {
 		opacity: .8;
+		transform: scale(1.04);
 		filter: hue-rotate(0deg);
-			-webkit-filter: hue-rotate(0deg);
-	}
+		-webkit-filter: hue-rotate(0deg);
+		-webkit-transform: scale(1.04);
+		-moz-transform: scale(1.04);
+		-ms-transform: scale(1.04);
+		-o-transform: scale(1.04);
+}
 
 	to {
 		opacity: 0;
+		transform: scale(.95);
 		filter: hue-rotate(720deg);
 		-webkit-filter: hue-rotate(720deg);
+		-webkit-transform: scale(.95);
+		-moz-transform: scale(.95);
+		-ms-transform: scale(.95);
+		-o-transform: scale(.95);
 }
 }
 
@@ -361,14 +364,20 @@ body::-webkit-scrollbar-thumb:hover {
 @keyframes fadeout2 {
 	from {
 		opacity: .8;
+		transform: scale(1.04);
 		filter: hue-rotate(0deg);
 		-webkit-filter: hue-rotate(0deg);
 }
 
 	to {
 		opacity: 0;
+		transform: scale(.95);
 		filter: hue-rotate(720deg);
 		-webkit-filter: hue-rotate(900deg);
+		-webkit-transform: scale(.95);
+		-moz-transform: scale(.95);
+		-ms-transform: scale(.95);
+		-o-transform: scale(.95);
 }
 }
 
