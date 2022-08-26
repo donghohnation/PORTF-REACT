@@ -368,7 +368,7 @@ body::-webkit-scrollbar-thumb:hover {
 	to {
 		opacity: 0;
 		filter: hue-rotate(720deg);
-		-webkit-filter: hue-rotate(720deg);
+		-webkit-filter: hue-rotate(900deg);
 }
 }
 
@@ -980,13 +980,23 @@ body::-webkit-scrollbar-thumb:hover {
 	width: 60%;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 2400px) {
 	#footeravatar {
-		width: 100%;
+		width: 47%;
 	}
 
 	#dark #footeravatar {
-		width: 100%;
+		width: 47%;
+	}
+}
+
+@media (max-width: 1700px) {
+	#footeravatar {
+		width: 60%;
+	}
+
+	#dark #footeravatar {
+		width: 60%;
 	}
 }
 
