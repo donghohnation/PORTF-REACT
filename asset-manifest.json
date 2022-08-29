@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PORTF-REACT/static/css/main.c59e17ea.css",
-    "main.js": "/PORTF-REACT/static/js/main.48d2599a.js",
+    "main.css": "/PORTF-REACT/static/css/main.7510bace.css",
+    "main.js": "/PORTF-REACT/static/js/main.bd2e4887.js",
     "static/media/proj1_supersearch.png": "/PORTF-REACT/static/media/proj1_supersearch.04a942b0a690213568d9.png",
     "static/media/proj5_gifstagram.png": "/PORTF-REACT/static/media/proj5_gifstagram.434df1f2c7273e664c3c.png",
     "static/media/profile_1-6.png": "/PORTF-REACT/static/media/profile_1-6.8aeabe069dc190995dab.png",
@@ -11,11 +11,11 @@
     "static/media/proj3_weather.png": "/PORTF-REACT/static/media/proj3_weather.86e70859cf1fec912560.png",
     "static/media/proj4_babble.png": "/PORTF-REACT/static/media/proj4_babble.1d1c2906166efceca659.png",
     "index.html": "/PORTF-REACT/index.html",
-    "main.c59e17ea.css.map": "/PORTF-REACT/static/css/main.c59e17ea.css.map",
-    "main.48d2599a.js.map": "/PORTF-REACT/static/js/main.48d2599a.js.map"
+    "main.7510bace.css.map": "/PORTF-REACT/static/css/main.7510bace.css.map",
+    "main.bd2e4887.js.map": "/PORTF-REACT/static/js/main.bd2e4887.js.map"
   },
   "entrypoints": [
-    "static/css/main.c59e17ea.css",
-    "static/js/main.48d2599a.js"
+    "static/css/main.7510bace.css",
+    "static/js/main.bd2e4887.js"
   ]
 }
