@@ -275,7 +275,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 
-.checkboxes{
+.checkboxes {
 	margin: 7px 0px;
 }
 
@@ -598,10 +598,10 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 #neub .projectDiv {
-	background-color: rgb(92, 255, 228);
-	border: 7px solid rgb(0, 0, 0);
+	background-color: rgb(127, 239, 220);
+	border: 5px solid rgb(0, 0, 0);
 	border-radius: 33px;
-	filter: drop-shadow(17px 17px 0px #000000);
+	filter: drop-shadow(12px 12px 0px #00000079);
 	margin: 15px;
 	padding-top: 18px;
 	padding-bottom: 22px;
@@ -611,7 +611,7 @@ body::-webkit-scrollbar-thumb:hover {
 	-moz-border-radius: 33px;
 	-ms-border-radius: 33px;
 	-o-border-radius: 33px;
-	-webkit-filter: drop-shadow(17px 17px 0px #000000);
+	-webkit-filter: drop-shadow(12px 12px 0px #00000079);
 }
 
 .projectDiv:hover {
@@ -646,12 +646,13 @@ body::-webkit-scrollbar-thumb:hover {
 #neub .image {
 	max-width: 100%;
 	border-radius: 18px;
-	filter: drop-shadow(3px 3px 0px #000000);
+	filter: drop-shadow(4px 4px 0px #000000);
 	border: 4px solid rgb(0, 0, 0);
 	-webkit-border-radius: 18px;
 	-moz-border-radius: 18px;
 	-ms-border-radius: 18px;
 	-o-border-radius: 18px;
+	-webkit-filter: drop-shadow(4px 4px 0px #000000);
 }
 
 #neub .projectContent {
@@ -749,10 +750,14 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 #neub .btn {
-	padding: 8px 17px;
+	padding-top: 8px;
+	padding-bottom: 12px;
+	padding-left: 24px;
+	padding-right: 19px;
+	line-height: 22px;
 	color: rgb(255, 255, 255);
 	font-weight: 600;
-	font-size: 16px;
+	font-size: 21px;
 	text-decoration: none;
 	margin: 11px;
 	border-radius: 9px;
@@ -764,6 +769,7 @@ body::-webkit-scrollbar-thumb:hover {
 	-moz-border-radius: 9px;
 	-ms-border-radius: 9px;
 	-o-border-radius: 9px;
+	-webkit-filter: drop-shadow(3px 3px 0px #000000);
 }
 
 .btn:hover {
@@ -886,6 +892,27 @@ body::-webkit-scrollbar-thumb:hover {
 	-o-transition: all ease 0.3s;
 }
 
+#neub .contactinputs {
+	height: 55px;
+	width: 100%;
+	padding: 12px;
+	font-weight: 600;
+	margin: 12px 0px;
+	color: rgb(3, 28, 41);
+	background-color: rgb(152, 255, 203);
+	border: 2px solid rgb(0, 0, 0);
+	transition: all ease 0.3s;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+}
+
 .contactinputs:hover {
 	background-color: rgb(246, 249, 253);
 	border: .8px solid #cdd8f1;
@@ -917,6 +944,22 @@ body::-webkit-scrollbar-thumb:hover {
 	background-color: rgba(7, 14, 20, 0.407);
 	border: .8px solid rgb(61, 84, 104);
 	border-radius: 2px;
+}
+
+#neub .contactmsg {
+	width: 100%;
+	padding: 12px;
+	transition: all ease 0.3s;
+	margin: 12px 0px;
+	font-weight: 600;
+	color: rgb(3, 28, 41);
+	background-color: rgb(152, 255, 203);
+	border: 2px solid rgb(0, 0, 0);
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	-o-border-radius: 5px;
 }
 
 .contactmsg:hover {
@@ -997,6 +1040,20 @@ body::-webkit-scrollbar-thumb:hover {
 	-o-border-radius: 3px;
 }
 
+#neub .resumeContent {
+	border: 4px solid rgb(0, 0, 0);
+	background-color: rgb(251, 251, 251);
+	border-radius: 66px;
+	padding: 100px 70px;
+	margin-top: 50px;
+	-webkit-border-radius: 66px;
+	-moz-border-radius: 66px;
+	-ms-border-radius: 66px;
+	-o-border-radius: 66px;
+	filter: drop-shadow(17px 17px 0px #00000091);
+	-webkit-filter: drop-shadow(17px 17px 0px #00000091);
+}
+
 .resumeContent p {
 	line-height: 18px;
 }
@@ -1035,10 +1092,26 @@ body::-webkit-scrollbar-thumb:hover {
 	line-height: 18px;
 }
 
+#neub .resumeContent p {
+	line-height: 22px;
+	font-weight: 500;
+	font-size: 17px;
+	padding-left: 33px;
+	padding-right: 22px;
+}
+
+
 .resumeheaders {
 	font-size: 20px;
 	font-weight: 500;
 }
+
+#neub .resumeheaders {
+	font-size: 55px;
+	font-weight: 700;
+	text-transform: lowercase;
+}
+
 
 
 
