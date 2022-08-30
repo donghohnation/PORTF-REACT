@@ -1,7 +1,7 @@
 import React, { createContext, useState } from "react";
-import { render } from "react-dom";
-import ReactSwitch from "react-switch";
-import Nav from "./Nav";
+// import { render } from "react-dom";
+// import ReactSwitch from "react-switch";
+// import Nav from "./Nav";
 import Body from "./Body";
 import ava from "../assets/images/Avatar-3_1-5.svg";
 import ava2 from "../assets/images/profile_1-6.png";
@@ -122,9 +122,9 @@ function App() {
 								<br></br>
 								<br></br>
 
-								<li><a class="socials" href="https://www.linkedin.com/in/donghoh-han-7b3a4656/">LINKEDIN</a></li>
-								<li><a class="socials" href="https://github.com/donghohnation">GITHUB</a></li>
-								<li><a class="socials" href="https://www.behance.net/donghohnation/">BEHANCE</a></li>
+								<li><a class="socials" href="https://www.linkedin.com/in/donghoh-han-7b3a4656/" target="_blank">LINKEDIN</a></li>
+								<li><a class="socials" href="https://github.com/donghohnation" target="_blank">GITHUB</a></li>
+								<li><a class="socials" href="https://www.behance.net/donghohnation/" target="_blank">BEHANCE</a></li>
 								<br></br>
 								<br></br>
 
