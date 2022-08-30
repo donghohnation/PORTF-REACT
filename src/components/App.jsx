@@ -17,17 +17,50 @@ export const ThemeContext = createContext(null);
 function App() {
 
 
+	const [theme, setTheme] = useState("");
 
 
-	const [theme, setTheme] = useState("light");
+	let themeSto = localStorage.getItem("themeSto", "");
 
-	const toggleTheme = () => {
-		setTheme((curr) => (curr === "light" ? "dark" : "light"));
+
+	const lightmode = () => {
+		setTheme("");
+		localStorage.setItem("themeSto", "");
+		document.getElementById("lightr").checked = true;
+		document.getElementById("darkr").checked = false;
+		document.getElementById("neubr").checked = false;
 	};
 
+	const darkmode = () => {
+		setTheme("dark");
+		localStorage.setItem("themeSto", "dark");
+		document.getElementById("lightr").checked = false;
+		document.getElementById("darkr").checked = true;
+		document.getElementById("neubr").checked = false;
+	};
+
+	const neubmode = () => {
+		setTheme("neub");
+		localStorage.setItem("themeSto", "neub");
+		document.getElementById("lightr").checked = false;
+		document.getElementById("darkr").checked = false;
+		document.getElementById("neubr").checked = true;
+	};
+
+	if (themeSto === "") {
+		window.addEventListener('load', lightmode);
+	} else if (themeSto === "dark") {
+		window.addEventListener('load', darkmode);
+	} else if (themeSto === "neub") {
+		window.addEventListener('load', neubmode);
+	}
 
 
-	
+
+
+
+
+
 
 	const date = new Date();
 	const currentTime = date.getHours();
@@ -57,11 +90,11 @@ function App() {
 	}
 
 
-	
+
 
 
 	return (
-		<ThemeContext.Provider value={{ theme, toggleTheme }}>
+		<ThemeContext.Provider>
 
 			<div className="App" id={theme}>
 
@@ -71,15 +104,15 @@ function App() {
 
 
 						<div className="col-10">
-							<h1 id="greettime" style={customStyle}>
+							<h2 id="greettime" style={customStyle}>
 								{greeting} <span id="time"></span>
-							</h1>
+							</h2>
 						</div>
 
 
 						<div className="col col-sm-2 nav">
 							<ul>
-								
+
 								<li className="dash">_</li>
 								<li><a href="#About Me">About Me</a></li>
 								<li><a href="#Work">Work</a></li>
@@ -88,19 +121,31 @@ function App() {
 								<li><a href="#Top">Top</a></li>
 								<br></br>
 								<br></br>
-								
+
 								<li><a class="socials" href="https://www.linkedin.com/in/donghoh-han-7b3a4656/">LINKEDIN</a></li>
 								<li><a class="socials" href="https://github.com/donghohnation">GITHUB</a></li>
 								<li><a class="socials" href="https://www.behance.net/donghohnation/">BEHANCE</a></li>
 								<br></br>
 								<br></br>
-								
-								<div className="switch">
-									<label id="lightdark"> {theme === "light" ? "TOGGLE DARK MODE" : "TOGGLE DARK MODE"}</label>
+
+								<fieldset>
 									<div>
-									<ReactSwitch onChange={toggleTheme} checked={theme === "dark"} />
+										<input onChange={lightmode} type="checkbox" className="checkboxes" id="lightr" name="lmode" value="lightr" />
+										<label for="lightr">LIGHT</label>
 									</div>
-								</div>
+									<div>
+										<input onChange={darkmode} type="checkbox" className="checkboxes" id="darkr" name="lmode" value="darkr" />
+										<label for="darkr">DARK</label>
+									</div>
+									<div>
+										<input onChange={neubmode} type="checkbox" className="checkboxes" id="neubr" name="lmode" value="neubr" />
+										<label for="neubr">NEUB</label>
+									</div>
+								</fieldset>
+
+
+
+
 
 							</ul>
 						</div>
@@ -110,9 +155,9 @@ function App() {
 					<div className="parent">
 						<img className="child1" id="avatar" src={ava} alt='avatar'></img>
 						<img className="child2" id="avatar2" src={ava2} alt=''></img>
-						
 
-						
+
+
 
 					</div>
 				</div>

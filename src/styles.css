@@ -24,6 +24,12 @@ body {
 	-o-transition: all ease 0.12s;
 }
 
+#neub {
+	background-color: rgb(253, 187, 32);
+	transition: all ease 0.12s;
+	font-family: 'Barlow', sans-serif;
+	color: black;
+}
 
 
 
@@ -143,8 +149,16 @@ body::-webkit-scrollbar-thumb:hover {
 	position: fixed;
 	z-index: 1;
 	margin-left: 100px;
-	/* background-color: rgba(67, 162, 234, 0.828); */
 	background-color: rgba(27, 36, 43, 0.828);
+	padding-bottom: 28px;
+	padding-top: 20px;
+}
+
+#neub .nav ul {
+	position: fixed;
+	z-index: 1;
+	margin-left: 100px;
+	background-color: rgb(253, 187, 32);
 	padding-bottom: 28px;
 	padding-top: 20px;
 }
@@ -260,13 +274,9 @@ body::-webkit-scrollbar-thumb:hover {
 	line-height: 26px;
 }
 
-.switch {
-	margin-top: 55px;
-}
 
-#lightdark {
-	margin-bottom: 13px;
-	padding-right: 28px;
+.checkboxes{
+	margin: 7px 0px;
 }
 
 
@@ -290,11 +300,11 @@ body::-webkit-scrollbar-thumb:hover {
 @keyframes fadeout3 {
 	from {
 		opacity: 0;
-}
+	}
 
 	to {
 		opacity: 1;
-}
+	}
 }
 
 #avatar:hover {
@@ -330,7 +340,7 @@ body::-webkit-scrollbar-thumb:hover {
 		-moz-transform: scale(1.04);
 		-ms-transform: scale(1.04);
 		-o-transform: scale(1.04);
-}
+	}
 
 	to {
 		opacity: 0;
@@ -341,7 +351,7 @@ body::-webkit-scrollbar-thumb:hover {
 		-moz-transform: scale(.95);
 		-ms-transform: scale(.95);
 		-o-transform: scale(.95);
-}
+	}
 }
 
 #avatar2:hover {
@@ -367,7 +377,7 @@ body::-webkit-scrollbar-thumb:hover {
 		transform: scale(1.04);
 		filter: hue-rotate(0deg);
 		-webkit-filter: hue-rotate(0deg);
-}
+	}
 
 	to {
 		opacity: 0;
@@ -378,7 +388,7 @@ body::-webkit-scrollbar-thumb:hover {
 		-moz-transform: scale(.95);
 		-ms-transform: scale(.95);
 		-o-transform: scale(.95);
-}
+	}
 }
 
 #dark #avatar {
@@ -524,6 +534,19 @@ body::-webkit-scrollbar-thumb:hover {
 	font-size: 44px;
 }
 
+#neub .sectionheader {
+	font-family: 'Barlow', sans-serif;
+	font-weight: 700;
+	letter-spacing: 0px;
+	font-size: 133px;
+	text-transform: lowercase;
+	filter: drop-shadow(5px 5px 0px #000000);
+	-webkit-text-fill-color: white;
+	-webkit-text-stroke: 4.2px;
+	-webkit-filter: drop-shadow(5px 5px 0px #000000);
+	margin-bottom: 131px;
+}
+
 .sectiondescription {
 	font-family: 'Inconsolata', monospace;
 	font-weight: 400;
@@ -574,6 +597,23 @@ body::-webkit-scrollbar-thumb:hover {
 	-o-border-radius: 4px;
 }
 
+#neub .projectDiv {
+	background-color: rgb(92, 255, 228);
+	border: 7px solid rgb(0, 0, 0);
+	border-radius: 33px;
+	filter: drop-shadow(17px 17px 0px #000000);
+	margin: 15px;
+	padding-top: 18px;
+	padding-bottom: 22px;
+	padding-left: 18px;
+	padding-right: 18px;
+	-webkit-border-radius: 33px;
+	-moz-border-radius: 33px;
+	-ms-border-radius: 33px;
+	-o-border-radius: 33px;
+	-webkit-filter: drop-shadow(17px 17px 0px #000000);
+}
+
 .projectDiv:hover {
 	background-color: rgba(251, 252, 254, 0.33);
 	transition: all .3s;
@@ -603,6 +643,20 @@ body::-webkit-scrollbar-thumb:hover {
 	border: .3px solid rgb(88, 112, 133);
 }
 
+#neub .image {
+	max-width: 100%;
+	border-radius: 18px;
+	filter: drop-shadow(3px 3px 0px #000000);
+	border: 4px solid rgb(0, 0, 0);
+	-webkit-border-radius: 18px;
+	-moz-border-radius: 18px;
+	-ms-border-radius: 18px;
+	-o-border-radius: 18px;
+}
+
+#neub .projectContent {
+	margin: 0px 18px;
+}
 
 .projectTitles {
 	font-family: 'Inconsolata', monospace;
@@ -611,16 +665,33 @@ body::-webkit-scrollbar-thumb:hover {
 	margin-top: 28px;
 }
 
+#neub .projectTitles {
+	font-family: 'Barlow', sans-serif;
+	letter-spacing: .7px;
+	line-height: 48px;
+	font-weight: 700;
+	font-size: 44px;
+	margin-top: 28px;
+	margin-bottom: 33px;
+}
 
 .projectDescriptions {
 	font-family: 'Inconsolata', monospace;
 	font-weight: 400;
 	font-size: 19px;
-	line-height: 24px;
+	line-height: 22px;
 	margin-top: 34px;
 	margin-bottom: 38px;
 }
 
+#neub .projectDescriptions {
+	font-family: 'Barlow', sans-serif;
+	font-weight: 600;
+	font-size: 19px;
+	line-height: 24px;
+	margin-top: 34px;
+	margin-bottom: 38px;
+}
 
 .projectTechDiv {
 	margin-top: 14px;
@@ -675,6 +746,24 @@ body::-webkit-scrollbar-thumb:hover {
 	-ms-border-radius: 9px;
 	-o-border-radius: 9px;
 	-webkit-filter: drop-shadow(12px 8px 5px #171920b8);
+}
+
+#neub .btn {
+	padding: 8px 17px;
+	color: rgb(255, 255, 255);
+	font-weight: 600;
+	font-size: 16px;
+	text-decoration: none;
+	margin: 11px;
+	border-radius: 9px;
+	border: 3px solid black;
+	background-color: rgb(19, 30, 241);
+	filter: drop-shadow(3px 3px 0px #000000);
+	box-shadow: none;
+	-webkit-border-radius: 9px;
+	-moz-border-radius: 9px;
+	-ms-border-radius: 9px;
+	-o-border-radius: 9px;
 }
 
 .btn:hover {
