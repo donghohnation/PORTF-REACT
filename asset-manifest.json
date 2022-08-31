@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PORTF-REACT/static/css/main.ae0c94e1.css",
-    "main.js": "/PORTF-REACT/static/js/main.27700cf9.js",
+    "main.css": "/PORTF-REACT/static/css/main.7d2f6b5a.css",
+    "main.js": "/PORTF-REACT/static/js/main.0a988922.js",
     "static/media/proj1_supersearch.png": "/PORTF-REACT/static/media/proj1_supersearch.04a942b0a690213568d9.png",
     "static/media/proj5_gifstagram.png": "/PORTF-REACT/static/media/proj5_gifstagram.434df1f2c7273e664c3c.png",
     "static/media/profile_1-6.png": "/PORTF-REACT/static/media/profile_1-6.8aeabe069dc190995dab.png",
@@ -10,12 +10,26 @@
     "static/media/Donghoh-Han-CV.pdf": "/PORTF-REACT/static/media/Donghoh-Han-CV.92db51bc0ee8c2648785.pdf",
     "static/media/proj3_weather.png": "/PORTF-REACT/static/media/proj3_weather.86e70859cf1fec912560.png",
     "static/media/proj4_babble.png": "/PORTF-REACT/static/media/proj4_babble.1d1c2906166efceca659.png",
+    "static/media/logo_jquery.svg": "/PORTF-REACT/static/media/logo_jquery.f83dc46697838b8b80b1060b6c3469d0.svg",
+    "static/media/logo_mysql.svg": "/PORTF-REACT/static/media/logo_mysql.b159cdf84bbd29b5c549d73b356a5000.svg",
+    "static/media/logo_node.svg": "/PORTF-REACT/static/media/logo_node.95f583f31a2a5a0bd2f8c4e9f1b95c68.svg",
+    "static/media/logo_react.svg": "/PORTF-REACT/static/media/logo_react.e529afdfc1adc4fbde878606ad42cf97.svg",
+    "static/media/logo_javascript.svg": "/PORTF-REACT/static/media/logo_javascript.01be3064b4d009cb4bb62fcdc27d4792.svg",
+    "static/media/logo_adobe_photoshop.svg": "/PORTF-REACT/static/media/logo_adobe_photoshop.9f858d2a63f8a36fa95e826a86674b61.svg",
+    "static/media/logo_adobe_xd.svg": "/PORTF-REACT/static/media/logo_adobe_xd.523145927763b8018c21ea214a83dd94.svg",
+    "static/media/logo_adobe_premier.svg": "/PORTF-REACT/static/media/logo_adobe_premier.f318581f8577c19951df50d3b293f6e1.svg",
+    "static/media/logo_adobe_indesign.svg": "/PORTF-REACT/static/media/logo_adobe_indesign.cb73555d877e468a2a2dd1df3576ad9a.svg",
+    "static/media/logo_adobe_illustrator.svg": "/PORTF-REACT/static/media/logo_adobe_illustrator.27cee099d80b46dbff746809f4d8d705.svg",
     "index.html": "/PORTF-REACT/index.html",
-    "main.ae0c94e1.css.map": "/PORTF-REACT/static/css/main.ae0c94e1.css.map",
-    "main.27700cf9.js.map": "/PORTF-REACT/static/js/main.27700cf9.js.map"
+    "static/media/logo_html.svg": "/PORTF-REACT/static/media/logo_html.1ff4ce0fe8aba8a89b356bda9997b154.svg",
+    "static/media/logo_bootstrap.svg": "/PORTF-REACT/static/media/logo_bootstrap.3a443346d26fd0b1360cf90069ef300c.svg",
+    "static/media/logo_css.svg": "/PORTF-REACT/static/media/logo_css.5f7e93d8e2d59f139b76def437de57c2.svg",
+    "static/media/logo_npm.svg": "/PORTF-REACT/static/media/logo_npm.429ac4a07c60cdf6547064fb69fa38e9.svg",
+    "main.7d2f6b5a.css.map": "/PORTF-REACT/static/css/main.7d2f6b5a.css.map",
+    "main.0a988922.js.map": "/PORTF-REACT/static/js/main.0a988922.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae0c94e1.css",
-    "static/js/main.27700cf9.js"
+    "static/css/main.7d2f6b5a.css",
+    "static/js/main.0a988922.js"
   ]
 }
