@@ -17,11 +17,25 @@ export const ThemeContext = createContext(null);
 function App() {
 
 
-	const [theme, setTheme] = useState("");
+
+
+	const [theme, setTheme] = useState("dark");
+
+
+
+	const dk = () => {
+		if (theme === "dark") {
+			document.getElementById("darkr").checked = true;
+		};
+	}
+
+	window.addEventListener('load', dk);
+
 
 
 	let themeSto = localStorage.getItem("themeSto", "");
 
+	
 
 	const lightmode = () => {
 		setTheme("");
