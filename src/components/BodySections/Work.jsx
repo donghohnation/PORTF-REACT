@@ -46,7 +46,7 @@ function Work() {
 
 					<WorkCard
 						img={require("../../assets/images/proj5_gifstagram.png")}
-						title="Gifstagram"
+						title="Gifsta"
 						description="It's like Instagram, for GIFs!"
 						sourcelink="https://github.com/donghohnation/gifstagram"
 						deploylink="https://donghohnation.github.io/gifstagram/"

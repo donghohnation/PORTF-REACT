@@ -271,8 +271,8 @@ body::-webkit-scrollbar-thumb:hover {
 
 #neub .dash {
 	color: rgb(210,
-		140,
-		21);
+			140,
+			21);
 	font-size: 22px;
 	font-weight: 500;
 	line-height: 32px;
@@ -359,14 +359,27 @@ body::-webkit-scrollbar-thumb:hover {
 
 .checkboxes {
 	margin: 7px 0px;
-	
+
 }
 
-#neub .checkboxlabel{
+#dark .checkboxlabel:hover {
+	color: rgb(202, 223, 239);
+}
+
+#neub .checkboxlabel {
 	color: rgb(210, 140, 21);
 	font-weight: 600;
 }
 
+#neub .checkboxlabel:hover {
+	text-decoration: none;
+	color: rgb(109, 71, 4);
+	transition: none;
+	-webkit-transition: none;
+	-moz-transition: none;
+	-ms-transition: none;
+	-o-transition: none;
+}
 
 
 
@@ -653,16 +666,15 @@ body::-webkit-scrollbar-thumb:hover {
 
 #neub #title {
 	font-family: 'Barlow', sans-serif;
-	font-weight: 800;
+	font-weight: 700;
 	line-height: 144px;
-	font-size: 144px;
-	color: blue;
-	letter-spacing: 5px;
-	filter: drop-shadow(-7px 7px 0px #080cff);
-	-webkit-text-fill-color: rgb(233, 254, 255);
-	-webkit-text-stroke: 4px;
+	font-size: 159px;
+	color: #0033ca;
+	/*letter-spacing: 5px;
+	*/filter: drop-shadow(-9px 9px 0px #0011ff);
+	-webkit-text-fill-color: #a2f8eb;
+	-webkit-text-stroke: 3px;
 	margin-bottom: 131px;
-	-webkit-filter: drop-shadow(-7px 7px 0px #080cff);
 }
 
 @media (max-width: 520px) {
@@ -768,6 +780,9 @@ body::-webkit-scrollbar-thumb:hover {
 	margin-top: 60px;
 }
 
+
+/* ========================== CARDS ========================== */
+
 .projectDiv {
 	background-color: rgb(244, 246, 249);
 	border: 1px solid rgb(170, 170, 215);
@@ -799,7 +814,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 #neub .projectDiv {
-	background-color: rgb(127, 239, 220);
+	background-color: rgb(159, 251, 236);
 	border: 5px solid rgb(0, 0, 0);
 	border-radius: 33px;
 	filter: drop-shadow(12px 12px 0px #00000079);
@@ -834,6 +849,8 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 
+/* ========================== PROJECT IMAGES ========================== */
+
 .image {
 	max-width: 100%;
 	border: .3px solid rgb(170, 170, 215);
@@ -856,6 +873,11 @@ body::-webkit-scrollbar-thumb:hover {
 	-webkit-filter: drop-shadow(8px 8px 0px #0000007b);
 }
 
+
+
+
+/* ========================== PROJECT CONTENT ========================== */
+
 #neub .projectContent {
 	margin: 0px 18px;
 }
@@ -876,7 +898,7 @@ body::-webkit-scrollbar-thumb:hover {
 	margin-top: 28px;
 	margin-bottom: 33px;
 	filter: drop-shadow(-2px 2px 0px #000000);
-	-webkit-text-fill-color: rgb(255, 206, 30);
+	-webkit-text-fill-color: rgb(255, 207, 240);
 	-webkit-text-stroke: 1.4px;
 	-webkit-filter: drop-shadow(-2px 2px 0px #000000);
 }
@@ -918,6 +940,10 @@ body::-webkit-scrollbar-thumb:hover {
 	line-height: 26px;
 	overflow-wrap: break-word;
 }
+
+
+
+/* ========================== PROJECT BUTTONS ========================== */
 
 
 .projBtns {
@@ -1057,6 +1083,10 @@ body::-webkit-scrollbar-thumb:hover {
 
 
 
+
+
+
+
 /* =================================================================== */
 /* =================================================================== */
 /* ============================= CONTACT ============================= */
@@ -1156,6 +1186,12 @@ body::-webkit-scrollbar-thumb:hover {
 	color: antiquewhite;
 }
 
+#dark .contactinputs:focus {
+	background-color: rgb(252, 246, 241);
+	border: none;
+	color: rgb(21, 56, 209);
+}
+
 .contactmsg {
 	width: 100%;
 	padding: 12px;
@@ -1203,6 +1239,12 @@ body::-webkit-scrollbar-thumb:hover {
 	background-color: rgb(40, 40, 40);
 	border: none;
 	color: antiquewhite;
+}
+
+#dark .contactmsg:focus {
+	background-color: rgb(252, 246, 241);
+	border: none;
+	color: rgb(21, 56, 209);
 }
 
 #contactsend {
@@ -1416,6 +1458,25 @@ body::-webkit-scrollbar-thumb:hover {
 	font-weight: 400;
 }
 
+#neub #footerdivleft {
+	color: rgb(221, 22, 111);
+}
+
+#footerdivright {
+	width: 100%;
+	text-align: left;
+}
+
+#dark #footerdivright {
+	width: 100%;
+	text-align: left;
+	font-weight: 400;
+}
+
+#neub #footerdivright {
+	color: rgb(221, 22, 111);
+}
+
 #footeravatar {
 	width: 60%;
 }
@@ -1456,13 +1517,8 @@ body::-webkit-scrollbar-thumb:hover {
 	-webkit-filter: hue-rotate(347deg) saturate(25%) brightness(339%);
 }
 
-#footerdivright {
-	width: 100%;
-	text-align: left;
-}
-
-#dark #footerdivright {
-	width: 100%;
-	text-align: left;
-	font-weight: 400;
+#neub #footeravatar {
+	width: 60%;
+	filter: hue-rotate(87deg);
+	-webkit-filter: hue-rotate(87deg);
 }

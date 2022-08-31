@@ -35,7 +35,7 @@ function App() {
 
 	let themeSto = localStorage.getItem("themeSto", "");
 
-	
+
 
 	const lightmode = () => {
 		setTheme("");
@@ -136,17 +136,13 @@ function App() {
 								<br></br>
 								<br></br>
 
-								<li><a class="socials" href="https://www.linkedin.com/in/donghoh-han-7b3a4656/" target="_blank">LINKEDIN</a></li>
-								<li><a class="socials" href="https://github.com/donghohnation" target="_blank">GITHUB</a></li>
-								<li><a class="socials" href="https://www.behance.net/donghohnation/" target="_blank">BEHANCE</a></li>
+								<li><a class="socials" href="https://www.linkedin.com/in/donghoh-han-7b3a4656/" target="_blank" rel="noreferrer">LINKEDIN</a></li>
+								<li><a class="socials" href="https://github.com/donghohnation" target="_blank" rel="noreferrer">GITHUB</a></li>
+								<li><a class="socials" href="https://www.behance.net/donghohnation/" target="_blank" rel="noreferrer">BEHANCE</a></li>
 								<br></br>
 								<br></br>
 
 								<fieldset>
-									<div>
-										<input onChange={lightmode} type="checkbox" className="checkboxes" id="lightr" name="lmode" value="lightr" />
-										<label className="checkboxlabel" for="lightr"> &nbsp; LIGHT</label>
-									</div>
 									<div>
 										<input onChange={darkmode} type="checkbox" className="checkboxes" id="darkr" name="lmode" value="darkr" />
 										<label className="checkboxlabel" for="darkr"> &nbsp; DARK</label>
@@ -154,6 +150,10 @@ function App() {
 									<div>
 										<input onChange={neubmode} type="checkbox" className="checkboxes" id="neubr" name="lmode" value="neubr" />
 										<label className="checkboxlabel" for="neubr"> &nbsp; NEUB</label>
+									</div>
+									<div>
+										<input onChange={lightmode} type="checkbox" className="checkboxes" id="lightr" name="lmode" value="lightr" />
+										<label className="checkboxlabel" for="lightr"> &nbsp; LIGHT</label>
 									</div>
 								</fieldset>
 
