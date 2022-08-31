@@ -154,7 +154,7 @@ function App() {
 					</div>
 					<div className="parent">
 						<img className="child1" id="avatar" src={ava} alt='avatar'></img>
-						<img className="child2" id="avatar2" src={ava2} alt=''></img>
+						<img className="child2" id="avatarPXL" src={ava2} alt='avatarPXL'></img>
 
 
 
