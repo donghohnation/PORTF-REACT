@@ -671,7 +671,8 @@ body::-webkit-scrollbar-thumb:hover {
 	font-size: 159px;
 	color: #0033ca;
 	/*letter-spacing: 5px;
-	*/filter: drop-shadow(-9px 9px 0px #0011ff);
+	*/
+	filter: drop-shadow(-9px 9px 0px #0011ff);
 	-webkit-text-fill-color: #a2f8eb;
 	-webkit-text-stroke: 3px;
 	margin-bottom: 131px;
@@ -761,6 +762,34 @@ body::-webkit-scrollbar-thumb:hover {
 	line-height: 32px;
 	margin-top: 50px;
 }
+
+
+
+
+
+
+
+
+/* ======================================================================= */
+/* ======================================================================= */
+/* ========================== ABOUT ME ========================== */
+/* ======================================================================= */
+/* ======================================================================= */
+
+.skillslogo,
+#dark .skillslogo,
+#neub .skillslogo
+{
+width:70%;
+/* border: 1px solid white; */
+}
+
+
+
+
+
+
+
 
 
 
