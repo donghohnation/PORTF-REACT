@@ -113,7 +113,7 @@ function App() {
 			<div className="App" id={theme}>
 
 				<div id="navdiv">
-					<div className="row">
+					<div className="row navrow">
 
 
 
@@ -126,8 +126,8 @@ function App() {
 
 						<div className="col col-sm-2 nav">
 							<ul>
-
-								<li className="dash">_</li>
+								<p className="navheaders">Navigation</p>
+								{/* <li className="dash">_</li> */}
 								<li><a href="#About Me">About Me</a></li>
 								<li><a href="#Work">Work</a></li>
 								<li><a href="#Contact-form">Contact</a></li>
@@ -135,10 +135,18 @@ function App() {
 								<li><a href="#Top">Top</a></li>
 								<br></br>
 								<br></br>
-
-								<li><a class="socials" href="https://www.linkedin.com/in/donghoh-han-7b3a4656/" target="_blank" rel="noreferrer">LINKEDIN</a></li>
-								<li><a class="socials" href="https://github.com/donghohnation" target="_blank" rel="noreferrer">GITHUB</a></li>
-								<li><a class="socials" href="https://www.behance.net/donghohnation/" target="_blank" rel="noreferrer">BEHANCE</a></li>
+								<br></br>
+								<br></br>
+								<br></br>
+								<br></br>
+								<p className="navheaders">Socials</p>
+								<li><a class="socials" href="https://www.linkedin.com/in/donghoh-han-7b3a4656/" target="_blank" rel="noreferrer">LinkedIn</a></li>
+								<li><a class="socials" href="https://github.com/donghohnation" target="_blank" rel="noreferrer">Github</a></li>
+								<li><a class="socials" href="https://www.behance.net/donghohnation/" target="_blank" rel="noreferrer">Behance</a></li>
+								<br></br>
+								<br></br>
+								<br></br>
+								<br></br>
 								<br></br>
 								<br></br>
 
