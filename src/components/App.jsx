@@ -131,15 +131,15 @@ function App() {
 								<fieldset>
 									<div>
 										<input onChange={lightmode} type="checkbox" className="checkboxes" id="lightr" name="lmode" value="lightr" />
-										<label for="lightr">LIGHT</label>
+										<label className="checkboxlabel" for="lightr"> &nbsp; LIGHT</label>
 									</div>
 									<div>
 										<input onChange={darkmode} type="checkbox" className="checkboxes" id="darkr" name="lmode" value="darkr" />
-										<label for="darkr">DARK</label>
+										<label className="checkboxlabel" for="darkr"> &nbsp; DARK</label>
 									</div>
 									<div>
 										<input onChange={neubmode} type="checkbox" className="checkboxes" id="neubr" name="lmode" value="neubr" />
-										<label for="neubr">NEUB</label>
+										<label className="checkboxlabel" for="neubr"> &nbsp; NEUB</label>
 									</div>
 								</fieldset>
 
