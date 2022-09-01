@@ -12,7 +12,7 @@ function Work() {
 
 
 
-				<h3 className="sectionheader" id="Work">MY WORK</h3>
+				<h3 className="sectionheader" id="Work">My Work</h3>
 				{/* <p className="sectiondescription">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magnaaliqua.</p> */}
 
 

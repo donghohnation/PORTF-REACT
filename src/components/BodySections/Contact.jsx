@@ -44,7 +44,7 @@ const Contact = () => {
 
 			<div className="col d2about dotted-spaced">
 
-				<h3 className="sectionheader" id="Contact-form">CONTACT</h3>
+				<h3 className="sectionheader" id="Contact-form">Contact</h3>
 
 				<div className='myemail'>
 					<p>email:</p>

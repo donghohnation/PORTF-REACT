@@ -7,7 +7,8 @@ body {
 
 #dark {
 	background-color: rgb(27, 36, 43);
-	font-family: 'Inconsolata', monospace;
+	/* font-family: 'Inconsolata', monospace; */
+	font-family: 'Almarai', sans-serif;
 	color: rgb(162, 213, 246);
 	transition: all ease 0.12s;
 	-webkit-transition: all ease 0.12s;
@@ -73,6 +74,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 
 #greettime {
+	font-family: 'Inconsolata', monospace;
 	margin-left: 180px;
 	margin-top: -18px;
 	font-size: 55px;
@@ -152,12 +154,13 @@ body::-webkit-scrollbar-thumb:hover {
 	background-color: rgba(244, 246, 249, 0.828);
 	margin-left: 90px;
 	padding-bottom: 28px;
-	padding-top: 50px;
+	padding-top: 180px;
 	padding-left: 20px;
 	height: 100%;
 	width: 100%;
 
 }
+
 
 #dark .nav ul {
 	position: fixed;
@@ -165,7 +168,7 @@ body::-webkit-scrollbar-thumb:hover {
 	background-color: rgba(27, 36, 43, 0.828);
 	margin-left: 90px;
 	padding-bottom: 28px;
-	padding-top: 50px;
+	padding-top: 180px;
 	padding-left: 20px;
 	height: 100%;
 	width: 100%;
@@ -213,80 +216,17 @@ body::-webkit-scrollbar-thumb:hover {
 	#neub .nav ul {
 		padding-left: 11px;
 		margin-left: -36px;
+	}
+
 }
 
-}
 
 
 
-
-
-
-/* @media (max-width: 1300px) {
-	.nav ul {
-		margin-left: 0px;
-		scale: .76;
-		margin-top: -51px;
-	}
-
-	#dark .nav ul {
-		margin-left: 0px;
-	}
-
-	#neub .nav ul {
-		margin-left: 0px;
-	}
-}
-
-@media (max-width: 640px) {
-	.nav ul {
-		margin-left: 0px;
-		scale: .76;
-		margin-top: -51px;
-		padding-left: 8px;
-	}
-
-	#dark .nav ul {
-		margin-left: 0px;
-		scale: .76;
-		margin-top: -51px;
-		padding-left: 8px;
-	}
-
-	#neub .nav ul {
-		margin-left: 0px;
-		scale: .76;
-		margin-top: -51px;
-		padding-left: 8px;
-	}
-}
-
-@media (max-width: 566px) {
-	.nav ul {
-		margin-left: -33px;
-		margin-right: -14px;
-		margin-top: -81px;
-		padding-left: 12px;
-	}
-
-	#dark .nav ul {
-		margin-left: -33px;
-		margin-right: -14px;
-		margin-top: -81px;
-		padding-left: 12px;
-	}
-
-	#neub .nav ul {
-		margin-left: -33px;
-		margin-right: -14px;
-		margin-top: -81px;
-		padding-left: 12px;
-	}
-} */
 
 .navheaders {
-	font-size: 13px;
-	font-weight: 200;
+	font-size: 11px;
+	font-weight: 400;
 }
 
 
@@ -317,19 +257,14 @@ body::-webkit-scrollbar-thumb:hover {
 .nav a {
 	text-decoration: none;
 	font-size: 18px;
-	transition: all ease 0.4s;
+	font-weight: 300;
 	color: rgb(64, 64, 233);
 }
 
 .nav a:hover {
 	text-decoration: none;
 	color: rgb(12, 0, 234);
-	transition: all ease 0.4s;
-	-webkit-transition: all ease 0.4s;
-	-moz-transition: all ease 0.4s;
-	-ms-transition: all ease 0.4s;
-	-o-transition: all ease 0.4s;
-	font-weight: 500;
+
 }
 
 #dark .nav a {
@@ -341,13 +276,8 @@ body::-webkit-scrollbar-thumb:hover {
 
 #dark .nav a:hover {
 	text-decoration: none;
-	color: rgb(202, 223, 239);
-	transition: all ease 0.4s;
-	-webkit-transition: all ease 0.4s;
-	-moz-transition: all ease 0.4s;
-	-ms-transition: all ease 0.4s;
-	-o-transition: all ease 0.4s;
-	font-weight: 500;
+	color: rgb(222, 241, 255);
+
 }
 
 #neub .nav a {
@@ -392,8 +322,12 @@ body::-webkit-scrollbar-thumb:hover {
 
 
 .checkboxes {
-	margin: 7px 0px;
+	/* margin: 7px 0px; */
+}
 
+#dark .checkboxlabel {
+	font-weight: 300;
+	font-size: 14px;
 }
 
 #dark .checkboxlabel:hover {
@@ -742,7 +676,7 @@ body::-webkit-scrollbar-thumb:hover {
 
 
 #titlecaption {
-	font-family: 'Inconsolata', monospace;
+	/* font-family: 'Inconsolata', monospace; */
 	font-size: 32px;
 	font-weight: 300;
 }
@@ -765,10 +699,11 @@ body::-webkit-scrollbar-thumb:hover {
 
 
 .sectionheader {
-	font-family: 'Inconsolata', monospace;
-	letter-spacing: 4px;
-	font-weight: 600;
-	font-size: 44px;
+	/* font-family: 'Inconsolata', monospace; */
+	/* letter-spacing: 4px; */
+	/* font-size: 44px; */
+	font-size: 54px;
+	font-weight: 400;
 }
 
 #neub .sectionheader {
@@ -795,10 +730,10 @@ body::-webkit-scrollbar-thumb:hover {
 }
 
 .sectiondescription {
-	font-family: 'Inconsolata', monospace;
-	font-weight: 400;
-	font-size: 24px;
-	line-height: 32px;
+	/* font-family: 'Inconsolata', monospace; */
+	font-weight: 300;
+	font-size: 22px;
+	line-height: 25px;
 	margin-top: 50px;
 }
 
@@ -871,7 +806,11 @@ transition: all linear 1s;
 
 /* ======================================================================= */
 /* ======================================================================= */
+/* ======================================================================= */
+/* ======================================================================= */
 /* ========================== PROJECT CARD DIVS ========================== */
+/* ======================================================================= */
+/* ======================================================================= */
 /* ======================================================================= */
 /* ======================================================================= */
 
@@ -983,8 +922,8 @@ transition: all linear 1s;
 }
 
 .projectTitles {
-	font-family: 'Inconsolata', monospace;
-	font-weight: 500;
+	/* font-family: 'Inconsolata', monospace; */
+	font-weight: 700;
 	font-size: 28px;
 	margin-top: 28px;
 }
@@ -1004,9 +943,9 @@ transition: all linear 1s;
 }
 
 .projectDescriptions {
-	font-family: 'Inconsolata', monospace;
-	font-weight: 400;
-	font-size: 19px;
+	/* font-family: 'Inconsolata', monospace; */
+	font-weight: 300;
+	font-size: 17px;
 	line-height: 22px;
 	margin-top: 34px;
 	margin-bottom: 38px;
@@ -1035,8 +974,8 @@ transition: all linear 1s;
 .projectTech {
 	background-color: rgba(175, 187, 212, 0.566);
 	color: rgb(250, 250, 251);
-	padding: 4px 12px;
-	font-weight: 600;
+	padding: 0px 12px;
+	font-weight: 700;
 	line-height: 26px;
 	overflow-wrap: break-word;
 }
@@ -1194,17 +1133,17 @@ transition: all linear 1s;
 /* =================================================================== */
 
 .myemail {
-	font-size: 18px;
+	font-size: 15px;
 	margin-top: 99px;
 	margin-left: 2px;
 }
 
 #dark .myemail p {
-	font-weight: 200;
+	font-weight: 300;
 }
 
 #dark .myemail strong {
-	font-weight: 400;
+	font-weight: 700;
 }
 
 
@@ -1355,14 +1294,6 @@ transition: all linear 1s;
 	padding: 8px 38px;
 }
 
-
-
-/* ================================================================== */
-/* ================================================================== */
-/* ============================= RESUME ============================= */
-/* ================================================================== */
-/* ================================================================== */
-
 .hide {
 	visibility: hidden
 }
@@ -1375,6 +1306,14 @@ transition: all linear 1s;
 }
 
 
+
+
+
+/* ================================================================== */
+/* ================================================================== */
+/* ============================= RESUME ============================= */
+/* ================================================================== */
+/* ================================================================== */
 
 
 
@@ -1442,7 +1381,13 @@ transition: all linear 1s;
 }
 
 .resumeContent p {
-	line-height: 18px;
+	font-weight: 300;
+	font-size: 14px;
+	line-height: 17px;
+}
+
+#dark .resumeContent p {
+	/* line-height: 18px; */
 }
 
 @media (max-width: 2222px) {
@@ -1477,9 +1422,6 @@ transition: all linear 1s;
 
 }
 
-#dark .resumeContent p {
-	line-height: 18px;
-}
 
 #neub .resumeContent p {
 	line-height: 22px;
@@ -1491,8 +1433,8 @@ transition: all linear 1s;
 
 
 .resumeheaders {
-	font-size: 20px;
-	font-weight: 500;
+	font-size: 23px;
+	font-weight: 700;
 }
 
 #neub .resumeheaders {
@@ -1545,7 +1487,7 @@ transition: all linear 1s;
 #dark #footerdivleft {
 	width: 100%;
 	text-align: right;
-	font-weight: 400;
+	font-weight: 300;
 }
 
 #neub #footerdivleft {
@@ -1560,7 +1502,7 @@ transition: all linear 1s;
 #dark #footerdivright {
 	width: 100%;
 	text-align: left;
-	font-weight: 400;
+	font-weight: 300;
 }
 
 #neub #footerdivright {

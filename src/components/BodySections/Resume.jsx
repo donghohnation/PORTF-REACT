@@ -11,16 +11,16 @@ function Resume() {
 			<div className="col dotted-spaced d4resume">
 				<div className="col col-lg-10">
 
-					<h3 className="sectionheader" id="Resume">RESUME</h3>
+					<h3 className="sectionheader" id="Resume">Resumé</h3>
 
 					<div className="col text-center dlbutton">
-						<a className="btn" id="dlresume" href={require("../../assets/Donghoh-Han-CV.pdf")} target="_blank">download pdf</a>
+						<a className="btn" id="dlresume" href={require("../../assets/Donghoh-Han-CV.pdf")} target="_blank" rel="noreferrer">download pdf</a>
 					</div>
 
 					<div className="resumeContent">
 
 						<div className="resumeSections">
-							<h1><strong className="resumeheaders">OBJECTIVE</strong></h1>
+							<h1><strong className="resumeheaders">Objective</strong></h1>
 							<br></br>
 							<p>To utilize my relentless creativity and design skills as a part of a team to create innovative and
 								boundary pushing experiences and products.</p>
@@ -29,7 +29,7 @@ function Resume() {
 						<br></br><br></br>
 
 						<div className="resumeSections">
-							<h1><strong className="resumeheaders">EDUCATION<strong /></strong></h1>
+							<h1><strong className="resumeheaders">Education</strong></h1>
 							<br></br>
 							<p>University of California Irvine | May 2022-August 2022</p>
 							<p>Full Stack Development Coding Boot Camp<br></br>Completion of the Full Stack Web Development program from UC Irvine.</p>
@@ -42,7 +42,7 @@ function Resume() {
 						<br></br><br></br>
 
 						<div className="resumeSections">
-							<h1><strong className="resumeheaders">PROFESSIONAL EXPERIENCE<strong /></strong></h1>
+							<h1><strong className="resumeheaders">Professional Experience</strong></h1>
 							<br></br>
 							<p>Alcon | Lake Forest, CA | February 2020-April 2022</p>
 							<p>UI UX Designer</p>

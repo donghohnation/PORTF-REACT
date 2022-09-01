@@ -124,7 +124,7 @@ function App() {
 						</div>
 
 
-						<div className="col col-sm-2 nav">
+						<div className="col col-sm-2 nav ">
 							<ul>
 								<p className="navheaders">Navigation</p>
 								{/* <li className="dash">_</li> */}
@@ -153,15 +153,15 @@ function App() {
 								<fieldset>
 									<div>
 										<input onChange={darkmode} type="checkbox" className="checkboxes" id="darkr" name="lmode" value="darkr" />
-										<label className="checkboxlabel" for="darkr"> &nbsp; DARK</label>
+										<label className="checkboxlabel" for="darkr"> &nbsp; dark</label>
 									</div>
 									<div>
 										<input onChange={neubmode} type="checkbox" className="checkboxes" id="neubr" name="lmode" value="neubr" />
-										<label className="checkboxlabel" for="neubr"> &nbsp; NEUB</label>
+										<label className="checkboxlabel" for="neubr"> &nbsp; neubrut</label>
 									</div>
 									<div>
 										<input onChange={lightmode} type="checkbox" className="checkboxes" id="lightr" name="lmode" value="lightr" />
-										<label className="checkboxlabel" for="lightr"> &nbsp; LIGHT</label>
+										<label className="checkboxlabel" for="lightr"> &nbsp; light</label>
 									</div>
 								</fieldset>
 
