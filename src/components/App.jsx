@@ -43,6 +43,8 @@ function App() {
 		document.getElementById("lightr").checked = true;
 		document.getElementById("darkr").checked = false;
 		document.getElementById("neubr").checked = false;
+		document.getElementById("neubr2").checked = false;
+
 	};
 
 	const darkmode = () => {
@@ -51,6 +53,7 @@ function App() {
 		document.getElementById("lightr").checked = false;
 		document.getElementById("darkr").checked = true;
 		document.getElementById("neubr").checked = false;
+		document.getElementById("neubr2").checked = false;
 	};
 
 	const neubmode = () => {
@@ -59,6 +62,17 @@ function App() {
 		document.getElementById("lightr").checked = false;
 		document.getElementById("darkr").checked = false;
 		document.getElementById("neubr").checked = true;
+		document.getElementById("neubr2").checked = false;
+	};
+
+	const neubmode2 = () => {
+		setTheme("neub2");
+		localStorage.setItem("themeSto", "neub2");
+		document.getElementById("lightr").checked = false;
+		document.getElementById("darkr").checked = false;
+		document.getElementById("neubr").checked = false;
+		document.getElementById("neubr2").checked = true;
+
 	};
 
 	if (themeSto === "") {
@@ -67,6 +81,8 @@ function App() {
 		window.addEventListener('load', darkmode);
 	} else if (themeSto === "neub") {
 		window.addEventListener('load', neubmode);
+	} else if (themeSto === "neub2") {
+		window.addEventListener('load', neubmode2);
 	}
 
 
@@ -152,15 +168,19 @@ function App() {
 
 								<fieldset>
 									<div>
-										<input onChange={darkmode} type="checkbox" className="checkboxes" id="darkr" name="lmode" value="darkr" />
+										<input onChange={neubmode2} type="checkbox" className="checkboxes" id="neubr2" name="neubr2" value="neubr2" />
+										<label className="checkboxlabel" for="neubr2"> &nbsp; neubrut2</label>
+									</div>
+									<div>
+										<input onChange={darkmode} type="checkbox" className="checkboxes" id="darkr" name="darkr" value="darkr" />
 										<label className="checkboxlabel" for="darkr"> &nbsp; dark</label>
 									</div>
 									<div>
-										<input onChange={neubmode} type="checkbox" className="checkboxes" id="neubr" name="lmode" value="neubr" />
+										<input onChange={neubmode} type="checkbox" className="checkboxes" id="neubr" name="neubr" value="neubr" />
 										<label className="checkboxlabel" for="neubr"> &nbsp; neubrut</label>
 									</div>
 									<div>
-										<input onChange={lightmode} type="checkbox" className="checkboxes" id="lightr" name="lmode" value="lightr" />
+										<input onChange={lightmode} type="checkbox" className="checkboxes" id="lightr" name="lightr" value="lightr" />
 										<label className="checkboxlabel" for="lightr"> &nbsp; light</label>
 									</div>
 								</fieldset>
