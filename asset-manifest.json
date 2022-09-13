@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/PORTF-REACT/static/css/main.867f2183.css",
-    "main.js": "/PORTF-REACT/static/js/main.4dddc233.js",
-    "static/media/proj1_supersearch.png": "/PORTF-REACT/static/media/proj1_supersearch.04a942b0a690213568d9.png",
+    "main.js": "/PORTF-REACT/static/js/main.64b485d2.js",
     "static/media/proj5_gifstagram.png": "/PORTF-REACT/static/media/proj5_gifstagram.434df1f2c7273e664c3c.png",
     "static/media/profile_1-6.png": "/PORTF-REACT/static/media/profile_1-6.8aeabe069dc190995dab.png",
     "static/media/Avatar-3_1-5.svg": "/PORTF-REACT/static/media/Avatar-3_1-5.2afbc59a012d75c91f2f1e24d772c269.svg",
     "static/media/Avatar-4_footer.svg": "/PORTF-REACT/static/media/Avatar-4_footer.5905cffcabc1266d823dd6cf87b1a08b.svg",
+    "static/media/proj6_apiland.png": "/PORTF-REACT/static/media/proj6_apiland.84131efdb759ffbdf107.png",
     "static/media/Donghoh-Han-CV.pdf": "/PORTF-REACT/static/media/Donghoh-Han-CV.92db51bc0ee8c2648785.pdf",
     "static/media/proj3_weather.png": "/PORTF-REACT/static/media/proj3_weather.86e70859cf1fec912560.png",
     "static/media/proj4_babble.png": "/PORTF-REACT/static/media/proj4_babble.1d1c2906166efceca659.png",
@@ -26,10 +26,10 @@
     "static/media/logo_css.svg": "/PORTF-REACT/static/media/logo_css.5f7e93d8e2d59f139b76def437de57c2.svg",
     "static/media/logo_npm.svg": "/PORTF-REACT/static/media/logo_npm.429ac4a07c60cdf6547064fb69fa38e9.svg",
     "main.867f2183.css.map": "/PORTF-REACT/static/css/main.867f2183.css.map",
-    "main.4dddc233.js.map": "/PORTF-REACT/static/js/main.4dddc233.js.map"
+    "main.64b485d2.js.map": "/PORTF-REACT/static/js/main.64b485d2.js.map"
   },
   "entrypoints": [
     "static/css/main.867f2183.css",
-    "static/js/main.4dddc233.js"
+    "static/js/main.64b485d2.js"
   ]
 }
