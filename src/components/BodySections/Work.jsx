@@ -29,11 +29,11 @@ function Work() {
 					/>
 
 					<WorkCard
-						img={require("../../assets/images/proj1_supersearch.png")}
-						title="Superhero Gif Search"
+						img={require("../../assets/images/proj6_apiland.png")}
+						title="API Land"
 						description="Do you like superheroes and need a gif to show it? Use this app!"
-						sourcelink="https://github.com/lamnong/project1.team2"
-						deploylink="https://lamnong.github.io/project1.team2/"
+						sourcelink="https://github.com/donghohnation/api-land"
+						deploylink="https://donghohnation.github.io/api-land/"
 						projecttech="HTML CSS JAVASCRIPT"
 					/>
 
