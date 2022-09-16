@@ -81,7 +81,7 @@ function Work() {
 					<WorkCard
 						img="https://images.squarespace-cdn.com/content/v1/5463c949e4b05c41e0cd708f/1642533428145-5P86DP6EB5BTCP17NJCH/st3.jpg?format=2500wg"
 						title="Starlite + Flip Chip Opto"
-						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna"
+						description="A set of infographics to show the features and strengths of high-powered LED lights made by Starlite and Flip Chip Opto"
 						sourcelink="https://donghohdesigns.squarespace.com/starlite-flip-chip-opto/"
 						deploylink="https://donghohdesigns.squarespace.com/starlite-flip-chip-opto/"
 						projecttech="PHOTOSHOP LIGHTROOM ILLUSTRATOR"
@@ -90,9 +90,9 @@ function Work() {
 					<WorkCard
 						img="https://images.squarespace-cdn.com/content/v1/5463c949e4b05c41e0cd708f/1557431867842-H4R97KPXDVQH76ECFV8Z/Skyboxx_Logo_v13_1_chosen-4-cropped.jpg?format=1000w"
 						title="The Skyboxx"
-						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna"
+						description="Logo/branding for Downtown San Jose's recording studio The Skyboxx."
 						sourcelink="https://donghohdesigns.squarespace.com/the-skyboxx-recording-studio/"
-						deploylink="https://donghohdesigns.squarespace.com/the-skyboxx-recording-studio/"
+						deploylink="https://brycentenial.com/"
 						projecttech="ILLUSTRATOR"
 					/>
 
